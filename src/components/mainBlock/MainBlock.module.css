@@ -1,0 +1,51 @@
+.block {
+    position: relative;
+    width: 100%;
+    height: 155vh;
+    overflow: hidden;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: inline;
+    width: 1025px;
+    font-weight: 500;
+    font-size: 96px;
+    line-height: 117px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.span {
+    font-style: italic;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.buttonBlock {
+    margin-top: 52px;
+    display: flex;
+    gap: 166px;
+}

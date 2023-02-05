@@ -1,0 +1,29 @@
+.block {
+    position: sticky;
+    z-index: 0;
+    top: -60px;
+    width: 100%;
+    padding: 80px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.subtitle {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.group {
+    margin-top: 96px;
+    display: flex;
+    justify-content: space-between;
+}

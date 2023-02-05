@@ -1,0 +1,16 @@
+.block {
+    display: flex;
+    gap: 50px;
+}
+
+.button {
+    color: white;
+    transition: ease-in 150ms;
+    border: none;
+    background-color: transparent;
+}
+
+.button:hover {
+    color: #2F6FCF;
+    transition: ease-in 150ms;
+}
