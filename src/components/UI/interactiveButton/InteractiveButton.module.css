@@ -18,12 +18,39 @@
     box-shadow: 0px 0px 0 #699AE4, 0px 0px 0 #092145;
 }
 
+@media (max-width: 1024px) {
+    .button {
+        width: 360px;
+        height: 80px;
+        font-size: 30px;
+    }
+}
+
 .left:hover {
     box-shadow: -10px -10px 0 #699AE4, 10px 10px 0#092145;
     transition: ease-out 300ms;
 }
 
+@media (max-width: 1024px) {
+
+    .left:hover {
+        box-shadow: -8px -8px 0 #699AE4, 8px 8px 0#092145;
+        transition: ease-out 300ms;
+    }
+
+}
+
+
 .right:hover {
     box-shadow: 10px -10px 0 #699AE4, -10px 10px 0#092145;
     transition: ease-out 300ms;
+}
+
+@media (max-width: 1024px) {
+
+    .right:hover {
+        box-shadow: 8px -8px 0 #699AE4, -8px 8px 0#092145;
+        transition: ease-out 300ms;
+    }
+
 }

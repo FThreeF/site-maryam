@@ -26,13 +26,26 @@
     flex-direction: column;
     align-items: center;
     transition: 200ms ease-in;
-    border-bottom: 5px solid transparent;
 }
 
-.program:hover {
-    border-bottom: 5px solid #2F6FCF;
-    transition: 200ms ease-in;
+
+.program::after {
+    content: '';
+    width: 0%;
+    height: 5px;
+    background-color: #2F6FCF;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: 300ms ease-in;
 }
+
+.program:hover.program::after {
+    width: 100%;
+    transition: 300ms ease-in;
+}
+
 
 .subtitle {
     font-weight: 300;

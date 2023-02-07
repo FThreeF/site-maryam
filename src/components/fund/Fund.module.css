@@ -9,11 +9,17 @@
     margin: 80px 0 80px 0;
 }
 
+.textGroup {
+    width: 689px;
+}
+
 .text {
-    width: 600px;
     font-weight: 400;
+    font-size: 24px;
     line-height: 29px;
 }
+
+
 
 .group2 {
     display: flex;

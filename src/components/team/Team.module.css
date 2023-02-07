@@ -1,10 +1,8 @@
 .block {
-    position: sticky;
-    z-index: 0;
-    top: -60px;
     width: 100%;
-    padding: 80px;
+    padding: 80px 0 80px 0;
 }
+
 
 .container {
     display: flex;

@@ -34,8 +34,6 @@ const Footer = () => {
                                 controls: []
                             }}>
                             <Placemark geometry={[55.670524, 37.633814]} />
-                            <FullscreenControl />
-
                         </Map>
                     </YMaps>
                 </div>

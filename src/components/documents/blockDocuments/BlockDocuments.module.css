@@ -5,8 +5,26 @@
     gap: 6px;
 }
 
-.image {
+.imageBlock {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: #2F6FCF;
+    transition: 200ms ease-in;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 14px;
+}
+
+.imageBlock:hover {
+    background-color: #012D70;
+    transition: 200ms ease-in;
+}
+
+.image {
+    width: 70%;
+    height: 70%;
 }
 
 

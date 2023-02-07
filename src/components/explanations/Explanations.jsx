@@ -13,6 +13,9 @@ const Explanations = () => {
     ]
     return (
         <div className={styleNames.block}>
+            <div className={`${styleNames.container} container`}>
+
+            </div>
             {info.map(el => 
                 <BlockExplanations img={el.img} text={el.text}/>    
             )}

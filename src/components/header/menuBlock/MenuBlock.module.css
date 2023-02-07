@@ -3,6 +3,13 @@
     gap: 50px;
 }
 
+
+@media (max-width: 1024px) {
+    .block {
+        gap: 40px;
+    }
+}
+
 .button {
     color: white;
     transition: ease-in 150ms;
