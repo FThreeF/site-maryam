@@ -6,6 +6,12 @@
     overflow: hidden;
 }
 
+
+
+
+
+
+
 .background {
     position: absolute;
     width: 100%;
@@ -45,6 +51,8 @@
     color: #FFFFFF;
     margin-top: 15px;
 }
+
+
 
 
 .buttonBlock {

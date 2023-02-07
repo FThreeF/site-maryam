@@ -24,6 +24,32 @@ body {
     zoom: 65%;
 }
 
+@media (max-width: 768px) {
+    body {
+        zoom: 40%;
+    }
+}
+
+
+@media (max-width: 600px) {
+    body {
+        zoom: 35%;
+    }
+}
+
+
+@media (max-width: 500px) {
+    body {
+        zoom: 30%;
+    }
+}
+
+@media (max-width: 400px) {
+    body {
+        zoom: 25%;
+    }
+}
+
 
 
 .container {
