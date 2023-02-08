@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/site-maryam/static/css/main.1217afb2.css",
+    "main.js": "/site-maryam/static/js/main.3bf37bc7.js",
+    "static/media/quoteBackground.png": "/site-maryam/static/media/quoteBackground.66f2095b219f2a46bb43.png",
+    "static/media/yourHelpBackground.png": "/site-maryam/static/media/yourHelpBackground.d7b0eb7c2f34dc23f1e1.png",
+    "static/media/mainBlockBackground.png": "/site-maryam/static/media/mainBlockBackground.b6c8984b2d08dff7f6a9.png",
+    "static/media/programsImage1.png": "/site-maryam/static/media/programsImage1.ff41de48acda026bcfb5.png",
+    "static/media/programsImage2.png": "/site-maryam/static/media/programsImage2.d7f526cca3c5500a85fe.png",
+    "static/media/LeonidTitov.png": "/site-maryam/static/media/LeonidTitov.344a87a712cb62e1faa3.png",
+    "static/media/ElenaSimonova.png": "/site-maryam/static/media/ElenaSimonova.ff68da1a9c1acdce5543.png",
+    "static/media/YaroslavFokin.png": "/site-maryam/static/media/YaroslavFokin.116b1bd2e9fcd13c74a6.png",
+    "static/media/AliceTikhomirova.png": "/site-maryam/static/media/AliceTikhomirova.490d9e359abb6f9f46f2.png",
+    "static/media/headerLogo.svg": "/site-maryam/static/media/headerLogo.3ffd4279ec4b96c5de7f6f2743069423.svg",
+    "static/media/menuLogo.svg": "/site-maryam/static/media/menuLogo.a311775d487e46076733579001fe8efd.svg",
+    "static/media/statisticsImage.png": "/site-maryam/static/media/statisticsImage.b210f9a85c9694c34b0e.png",
+    "static/media/explanationsIcon1.svg": "/site-maryam/static/media/explanationsIcon1.b2b39a6f8cfa5528b219ccc996192916.svg",
+    "static/media/explanationsIcon3.svg": "/site-maryam/static/media/explanationsIcon3.7ff42fc7488c973f6ece3fb6fc34ea41.svg",
+    "static/media/explanationsIcon2.svg": "/site-maryam/static/media/explanationsIcon2.00938ba60f5ab03219ae3549eafc9dc9.svg",
+    "static/media/documentIcon.svg": "/site-maryam/static/media/documentIcon.3723318396bca5fcbecf1293c772f245.svg",
+    "index.html": "/site-maryam/index.html",
+    "static/media/menuButton.svg": "/site-maryam/static/media/menuButton.f4012135ba5a2a9e384c.svg",
+    "main.1217afb2.css.map": "/site-maryam/static/css/main.1217afb2.css.map",
+    "main.3bf37bc7.js.map": "/site-maryam/static/js/main.3bf37bc7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1217afb2.css",
+    "static/js/main.3bf37bc7.js"
+  ]
+}
