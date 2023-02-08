@@ -41,14 +41,14 @@
     height: 100%;
     border: 5px solid #FFFFFF;
     background-color: transparent;
-    transition: ease-out 500ms;
+    transition: ease-out 250ms;
 
 }
 
 .border:hover {
     box-shadow: 0 0 10px white, inset 0 0 10px white;
-    transition: ease-out 500ms;
-    transform: scale(1.02);
+    transition: ease-out 250ms;
+    transform: scale(1.06);
 }
 
 .buttonValue {

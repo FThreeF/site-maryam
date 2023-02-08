@@ -23,9 +23,15 @@ const MenuBlock = () => {
     return (
         <nav className={styleNames.block}>
 
-            <Link className={styleNames.button} to='/*'>Главная</Link>
+            {/* <Link className={styleNames.button} to='/*'>Главная</Link>
             <Link className={styleNames.button} to='/aboutUs'>О нас</Link>
-            <Link className={styleNames.button} to='/howToHelp'>Как помочь</Link>
+            <Link className={styleNames.button} to='/howToHelp'>Как помочь</Link> */}
+
+
+
+            <button onClick={() => Scroll('mainBlock')} className={styleNames.button}>Главная</button>
+            <button onClick={() => Scroll('fund')} className={styleNames.button}>О нас</button>
+            <button onClick={() => Scroll('programs')} className={styleNames.button}>Как помочь</button>
             <button onClick={() => Scroll('team')} className={styleNames.button}>Команда</button>
             <button onClick={() => Scroll('documents')} className={styleNames.button}>Отчеты</button>
         </nav>

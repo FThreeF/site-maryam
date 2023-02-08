@@ -17,7 +17,7 @@ const News = () => {
         },
     ]
     return (
-        <div className={`${styleNames.block} zoom`}>
+        <div className={`${styleNames.block} news zoom`}>
             <div className={`${styleNames.container} container`}>
                 <BeautifulTitle>Новости</BeautifulTitle>
                 <div className={`${styleNames.group} ${styleNames.phoneHide}`}>

@@ -1,8 +1,18 @@
-.block {}
+.block {
+    padding: 50px 0;
+}
 
-.container {}
+.container {
+    display: flex;
+    justify-content: space-between;
+}
 
-.wrapper {}
+.wrapper {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 
 .group {}
 
@@ -21,4 +31,13 @@
     font-size: 24px;
     line-height: 29px;
     text-indent: 10px;
+}
+
+.list {}
+
+.item {}
+
+.image {
+    margin-top: 80px;
+    width: 100%;
 }
