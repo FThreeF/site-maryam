@@ -1,7 +1,7 @@
 import React from 'react';
 import styleNames from './InformationPanel.module.css';
 
-const InformationBar = ({ children, ...props }) => {
+const InformationPanel = ({ children, ...props }) => {
     return (
         <div className={`${styleNames.block} zoom`}>
             <div className={`${styleNames.container} container`}>
@@ -11,4 +11,4 @@ const InformationBar = ({ children, ...props }) => {
     )
 }
 
-export default InformationBar;
+export default InformationPanel;

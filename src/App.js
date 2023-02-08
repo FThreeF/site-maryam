@@ -1,78 +1,37 @@
 import React, { useRef } from 'react';
 import './App.css';
-import Header from './components/header/Header.jsx';
-import HelpInformation from './components/helpInformation/HelpInformation';
-import MainBlock from './components/mainBlock/MainBlock';
-import BeautifulInformationPanel from './components/UI/beautifulInformationPanel/BeautifulInformationPanel';
-import InformationPanel from './components/UI/informationPanel/InformationPanel';
+
 import yourHelpBackground from './source/yourHelpBackground.png';
 import quoteBackground from './source/quoteBackground.png';
-import YourHelp from './components/yourHelp/YourHelp';
+
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import MainPage from './components/mainPage/MainPage';
+import AboutUsPage from './components/aboutUsPage/AboutUsPage';
+import HowToHelpPage from './components/howToHelpPage/HowToHelpPage';
 import Footer from './components/footer/Footer';
-import Explanations from './components/explanations/Explanations';
-import Statistics from './components/statistics/Statistics';
-import Quote from './components/quote/Quote';
-import BeautifulTitle from './components/UI/beautifulTitle/BeautifulTitle';
-import Fund from './components/fund/Fund';
-import Programs from './components/programs/Programs';
-import Team from './components/team/Team';
-import Documents from './components/documents/Documents';
-import News from './components/news/News';
+import NavMenu from './components/navMenu/NavMenu';
+import Header from './components/header/Header';
+
 
 
 const App = () => {
-
-
-
-
   return (
-    <div className="app">
-
-      <Header />
-      <MainBlock />
-
-      <InformationPanel>
-        <HelpInformation />
-      </InformationPanel>
-
-      <Fund />
-
-
-      <InformationPanel>
-        <Explanations />
-      </InformationPanel>
-
-      <Programs />
-
-      <div className='nonePhone'>
-        < InformationPanel >
-          <Statistics />
-        </InformationPanel >
+    <BrowserRouter>
+      <div className="app">
+        <Routes>
+          <Route path='*' element={<Header />} />
+          <Route path='/aboutUs' element={<NavMenu />} />
+          <Route path='/howToHelp' element={<NavMenu />} />
+        </Routes>
+    
+        <Routes>
+          <Route path='*' element={<MainPage yourHelpBackground={yourHelpBackground} quoteBackground={quoteBackground} />} />
+          <Route path='/aboutUs' element={<AboutUsPage />} />
+          <Route path='/howToHelp' element={<HowToHelpPage />} />
+        </Routes>
+        <Footer />
       </div>
-
-
-
-      <div className='team'>
-        <Team />
-        < BeautifulInformationPanel background={yourHelpBackground} >
-          <YourHelp />
-        </BeautifulInformationPanel >
-      </div>
-
-      <div className='nonePhone documents'>
-        <Documents />
-        < BeautifulInformationPanel background={quoteBackground} >
-          <Quote />
-        </BeautifulInformationPanel >
-      </div>
-
-
-
-      <News />
-
-      <Footer />
-
-    </div >
+    </BrowserRouter>
   )
 }
 

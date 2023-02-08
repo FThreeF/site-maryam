@@ -17,7 +17,7 @@
 .image {
     position: absolute;
     right: 0;
-    bottom: 11px;
+    bottom: -25%;
     width: 400px;
     height: 228px;
 }

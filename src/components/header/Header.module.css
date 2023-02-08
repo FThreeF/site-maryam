@@ -1,15 +1,15 @@
 .block {
     position: absolute;
     z-index: 1;
-    top: 44px;
+    top: 0px;
     left: 0;
     width: 100%;
-    height: 140px;
 }
 
 
 .container {
-    max-width: 1541px;
+    max-width: 1620px;
+    height: 180px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -90,6 +90,7 @@
     color: #2F6FCF;
     transition: ease-in 150ms;
 }
+
 
 @media screen and (max-height: 800px) {
     .block {

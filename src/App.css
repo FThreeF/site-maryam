@@ -14,11 +14,10 @@
     width: 0;
 }
 
-html {
-    
-}
 
-html, body, #root {
+html,
+body,
+#root {
     height: 100%;
 }
 
@@ -32,22 +31,28 @@ html, body, #root {
     height: 100%;
     padding: 0px 15px;
     margin: 0 auto;
-    overflow: hidden;
 }
 
-@media screen and (max-height: 800px) {
+
+
+
+@media screen and (max-width: 1300px) {
     .container {
-        zoom: 75%;
+        zoom: 100%;
     }
 }
 
-@media screen and (max-height: 600px) {
+
+
+@media screen and (max-width: 1250px) {
     .container {
-        zoom: 60%;
+        zoom: 70%;
     }
 }
 
-@media screen and (max-width: 900px) {
+
+
+@media screen and (max-width: 940px) {
     .container {
         zoom: 50%;
     }
@@ -60,6 +65,37 @@ html, body, #root {
         zoom: 40%;
     }
 }
+
+
+@media screen and (max-height: 1000px) {
+    .container {
+        zoom: 80%;
+    }
+}
+
+
+@media screen and (max-height: 800px) {
+    .container {
+        zoom: 65%;
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .container {
+        zoom: 60%;
+    }
+}
+
+
+@media screen and (max-height: 400px) {
+    .container {
+        zoom: 40%;
+    }
+}
+
+
+
+
 
 
 
@@ -83,7 +119,7 @@ html, body, #root {
     display: block;
 }
 
-@media screen and (max-width: 576px){
+@media screen and (max-width: 576px) {
     .nonePhone {
         display: none;
     }
@@ -100,4 +136,13 @@ html, body, #root {
     .phoneHide {
         display: none;
     }
+}
+
+.titlePage {
+    font-weight: 700;
+    font-size: 90px;
+    line-height: 110px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
 }

@@ -1,0 +1,38 @@
+.block {}
+
+.container {
+    max-width: 1620px;
+    height: 180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+    overflow: inherit;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    display: flex;
+    align-items: center;
+    color: #000000;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.button {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    transition: ease-in 150ms;
+}
+
+.button:hover {
+    color: #2F6FCF;
+    transition: ease-in 150ms;
+}

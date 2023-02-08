@@ -1,10 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import styleNames from './Header.module.css';
 import logo from './headerLogo.svg';
 import MenuBlock from './menuBlock/MenuBlock';
 import menuLogo from './menuLogo.svg';
 
-const Header = () => {
+const Header = ({ type }) => {
 
     const Scroll = (name) => {
         const block = document.querySelector(`.${name}`)
@@ -12,7 +13,7 @@ const Header = () => {
     }
 
     const scrollTo = element => {
-        
+
         window.scroll({
             left: 0,
             top: element.offsetTop,
@@ -33,6 +34,7 @@ const Header = () => {
         }
     }
 
+
     return (
         <header className={`${styleNames.block} zoom`}>
             <div className={`${styleNames.container} container`}>
@@ -42,9 +44,9 @@ const Header = () => {
                 <div className={styleNames.panel}>
                     <img className={styleNames.menuLogo} src={menuLogo} alt="" />
                     <nav className={styleNames.menu}>
-                        <button onClick={() => Scroll('mainBlock')} className={styleNames.item}>Главная</button>
-                        <button onClick={() => Scroll('fund')} className={styleNames.item}>О нас</button>
-                        <button onClick={() => Scroll('programs')} className={styleNames.item}>Как помочь</button>
+                        <Link className={styleNames.item} to='/*'>Главная</Link>
+                        <Link className={styleNames.item} to='/aboutUs'>О нас</Link>
+                        <Link className={styleNames.item} to='/howToHelp'>Как помочь</Link>
                         <button onClick={() => Scroll('team')} className={styleNames.item}>Команда</button>
                         <button onClick={() => Scroll('documents')} className={styleNames.item}>Отчеты</button>
                     </nav>

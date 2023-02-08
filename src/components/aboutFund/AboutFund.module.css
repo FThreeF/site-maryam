@@ -1,0 +1,24 @@
+.block {}
+
+.container {}
+
+.wrapper {}
+
+.group {}
+
+.title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-indent: 10px;
+    text-transform: capitalize;
+
+    color: #000000;
+}
+
+.text {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-indent: 10px;
+}
