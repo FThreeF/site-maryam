@@ -7,14 +7,14 @@ import icon3 from './explanationsIcon3.svg';
 
 const Explanations = () => {
     let info = [
-        { img: icon1, text: 'Помощь всем нуждающимся детям, независимо от их пола или состояния здоровья' },
-        { img: icon2, text: 'Сотрудники и волонтеры фонда-ответственные люди с высокими этическими стандартами' },
-        { img: icon3, text: 'Прозрачность важна, поэтому отчеты предоставляются всем донорам' },
+        {id: 0, img: icon1, text: 'Помощь всем нуждающимся детям, независимо от их пола или состояния здоровья' },
+        {id: 1, img: icon2, text: 'Сотрудники и волонтеры фонда-ответственные люди с высокими этическими стандартами' },
+        {id: 2, img: icon3, text: 'Прозрачность важна, поэтому отчеты предоставляются всем донорам' },
     ]
     return (
         <div className={`${styleNames.block}`}>
             {info.map(el =>
-                <BlockExplanations img={el.img} text={el.text} />
+                <BlockExplanations img={el.img} text={el.text} key={el.id}/>
             )}
         </div>
     )

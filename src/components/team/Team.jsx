@@ -9,10 +9,10 @@ import ElenaSimonova from './ElenaSimonova.png';
 
 const Team = () => {
     let info = [
-        { image: LeonudTitov, name: 'Леонид Титов', text: 'Основатель фонда' },
-        { image: AliceTikhomirova, name: 'Алиса Тихомирова', text: 'ОСпециалист по связям с общественностью' },
-        { image: YaroslavFokin, name: 'Ярослав Фокин', text: 'Главный руководитель' },
-        { image: ElenaSimonova, name: 'Елена Симонова', text: 'Бухгалтер' },
+        {id: 0, image: LeonudTitov, name: 'Леонид Титов', text: 'Основатель фонда' },
+        {id: 1, image: AliceTikhomirova, name: 'Алиса Тихомирова', text: 'ОСпециалист по связям с общественностью' },
+        {id: 2, image: YaroslavFokin, name: 'Ярослав Фокин', text: 'Главный руководитель' },
+        {id: 3, image: ElenaSimonova, name: 'Елена Симонова', text: 'Бухгалтер' },
     ]
     return (
         <div className={`${styleNames.block} team zoom nonePhone`}>
@@ -21,7 +21,7 @@ const Team = () => {
                 <div className={styleNames.subtitle}>Захотели присоединиться к команде? Напишете нам, будем рады вам</div>
                 <div className={styleNames.group}>
                     {info.map(el =>
-                        <BlockTeam image={el.image} name={el.name} text={el.text} />
+                        <BlockTeam key={el.id} image={el.image} name={el.name} text={el.text} />
                     )}
                 </div>
             </div>

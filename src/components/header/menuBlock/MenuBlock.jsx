@@ -6,12 +6,12 @@ const MenuBlock = () => {
 
     const Tes = (text) => console.log(text);
 
-    const Scroll = (name) => {
+    const ScrollPC = (name) => {
         const block = document.querySelector(`.${name}`)
-        if (block) scrollTo(block);
+        if (block) scrollToPC(block);
     }
 
-    const scrollTo = element => {
+    const scrollToPC = element => {
 
         window.scroll({
             left: 0,
@@ -29,11 +29,11 @@ const MenuBlock = () => {
 
 
 
-            <button onClick={() => Scroll('mainBlock')} className={styleNames.button}>Главная</button>
-            <button onClick={() => Scroll('fund')} className={styleNames.button}>О нас</button>
-            <button onClick={() => Scroll('programs')} className={styleNames.button}>Как помочь</button>
-            <button onClick={() => Scroll('team')} className={styleNames.button}>Команда</button>
-            <button onClick={() => Scroll('documents')} className={styleNames.button}>Отчеты</button>
+            <button onClick={() => ScrollPC('mainBlock')} className={styleNames.button}>Главная</button>
+            <button onClick={() => ScrollPC('fund')} className={styleNames.button}>О нас</button>
+            <button onClick={() => ScrollPC('programs')} className={styleNames.button}>Как помочь</button>
+            <button onClick={() => ScrollPC('team')} className={styleNames.button}>Команда</button>
+            <button onClick={() => ScrollPC('documents')} className={styleNames.button}>Отчеты</button>
         </nav>
     )
 }
