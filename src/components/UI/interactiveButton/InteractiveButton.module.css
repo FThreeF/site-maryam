@@ -1,12 +1,7 @@
 .button {
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 10;
     width: 377px;
     height: 90px;
-    background: #2F6FCF;
-    border: none;
+    position: relative; 
     font-size: 36px;
     line-height: 44px;
     display: flex;
@@ -16,14 +11,8 @@
     color: #FFFFFF;
     transition: ease-out 300ms;
     box-shadow: 0px 0px 0 #699AE4, 0px 0px 0 #092145;
-}
-
-@media (max-width: 1024px) {
-    .button {
-        width: 360px;
-        height: 80px;
-        font-size: 30px;
-    }
+    background-color: #2F6FCF;
+    border: none;
 }
 
 .left:hover {
@@ -31,26 +20,45 @@
     transition: ease-out 300ms;
 }
 
-@media (max-width: 1024px) {
-
-    .left:hover {
-        box-shadow: -8px -8px 0 #699AE4, 8px 8px 0#092145;
-        transition: ease-out 300ms;
-    }
-
-}
-
 
 .right:hover {
     box-shadow: 10px -10px 0 #699AE4, -10px 10px 0#092145;
     transition: ease-out 300ms;
 }
-
-@media (max-width: 1024px) {
-
+/* 
+@media screen and (max-height: 800px) {
+    .button {
+        width: 283px;
+        height: 68px;
+        font-size: 24px;
+    }
+    .left:hover {
+        box-shadow: -8px -8px 0 #699AE4, 8px 8px 0#092145;
+        transition: ease-out 300ms;
+    }
+    
+    
     .right:hover {
         box-shadow: 8px -8px 0 #699AE4, -8px 8px 0#092145;
         transition: ease-out 300ms;
     }
+} */
 
+@media screen and (max-width: 576px) {
+    .button {
+        width: 243px;
+        height: 58px;
+        font-size: 20px;
+    }
+    .left:hover {
+        box-shadow: -6px -6px 0 #699AE4, 6px 6px 0#092145;
+        transition: ease-out 300ms;
+    }
+    
+    
+    .right:hover {
+        box-shadow: 6px -6px 0 #699AE4, -6px 6px 0#092145;
+        transition: ease-out 300ms;
+    }
+    
 }

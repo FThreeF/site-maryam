@@ -9,7 +9,7 @@ const HelpInformation = () => {
         {title: 'Уже трудятся', value: '56', name: 'волонтеров'},
     ]
     return (
-        <div className={styleNames.block}>
+        <div className={`${styleNames.block} zoom`}>
             {info.map(el => 
                 <BlockHelpInformation title={el.title} value={el.value} name={el.name}/>    
             )}

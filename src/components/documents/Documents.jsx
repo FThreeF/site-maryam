@@ -12,7 +12,7 @@ const Documents = () => {
         { image: documentIcon, title: 'Финансовый отчет весна', text: 'Размер файла 2.44 mb' },
     ]
     return (
-        <div className={`${styleNames.block} documents`}>
+        <div className={`${styleNames.block} documents zoom`}>
             <div className={`${styleNames.container} container`}>
                 <BeautifulTitle>Документы</BeautifulTitle>
                 <div className={styleNames.subtitle}>Мы ответственно подходим к документированию и предоставляем всю отчетность фонда</div>

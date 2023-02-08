@@ -1,24 +1,21 @@
 .block {
     width: 100%;
-    height: 350px;
+    padding: 37px 0 67px 0;
     background-color: #212121;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 .container {
-    width: 100%;
-    height: 246px;
     display: flex;
     justify-content: space-between;
+    gap: 30px;
 }
+
 
 .contacts {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
+    height: 246px;
 }
 
 .title {
@@ -36,10 +33,11 @@
 }
 
 .message {
-    width: 440px;
+    width: 444px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    height: 246px;
 }
 
 .group {
@@ -75,14 +73,72 @@
 
 .mapBlock {
     width: 327px;
-    height: 100%;
-    overflow: hidden;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    height: 246px;
 }
 
-.map {
-    width: 100%;
-    height: 100%;
+
+/* 
+@media screen and (min-width: 1200px) {
+    .container {
+        height: 246px;
+    
+    }
+} */
+
+@media screen and (max-width: 576px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .title {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .text {
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 17px;
+    }
+
+    .contacts {
+        height: inherit;
+        gap: 24px;
+    }
+
+    .message {
+        width: 100%;
+        height: inherit;
+        gap: 5px;
+    }
+
+    .input {
+        height: 41.8px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .textarea {
+        height: 78.72px;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .mapBlock {
+        width: 100%;
+        
+    }
+
+
+    .YMaps {
+        width: 100%;
+        border: 2px solid green;
+    
+    }
+
+
 }

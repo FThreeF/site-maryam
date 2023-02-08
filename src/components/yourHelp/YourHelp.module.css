@@ -42,7 +42,7 @@
     border: 5px solid #FFFFFF;
     background-color: transparent;
     transition: ease-out 500ms;
-    
+
 }
 
 .border:hover {
@@ -69,4 +69,33 @@
 .buttonValue {
     transition: ease-out 500ms;
     transform: scale(0.98);
+}
+
+
+
+@media screen and (max-width: 576px) {
+    .button {
+        width: 220px;
+        height: 54px;
+    }
+
+    .buttonValue {
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .text {
+        width: 100%;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+    }
+
+    .title {
+        width: 100%;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+    }
 }

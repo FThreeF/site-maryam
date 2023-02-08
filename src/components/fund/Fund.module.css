@@ -28,6 +28,8 @@
     align-items: center;
 }
 
+
+
 .name {
     font-weight: 400;
     line-height: 29px;
@@ -35,4 +37,17 @@
     align-items: flex-end;
     justify-content: center;
     margin-top: 14px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .group2 {
+        display: none;
+    }
+
+    .text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 22px;
+    }
 }

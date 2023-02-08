@@ -44,25 +44,34 @@ const App = () => {
 
       <Programs />
 
-      < InformationPanel >
-        <Statistics />
-      </InformationPanel >
+      <div className='nonePhone'>
+        < InformationPanel >
+          <Statistics />
+        </InformationPanel >
+      </div>
 
-      <Team />
 
-      < BeautifulInformationPanel background={yourHelpBackground} >
-        <YourHelp />
-      </BeautifulInformationPanel >
 
-      <Documents />
+      <div className='team'>
+        <Team />
+        < BeautifulInformationPanel background={yourHelpBackground} >
+          <YourHelp />
+        </BeautifulInformationPanel >
+      </div>
 
-      < BeautifulInformationPanel background={quoteBackground} >
-        <Quote />
-      </BeautifulInformationPanel >
+      <div className='nonePhone documents'>
+        <Documents />
+        < BeautifulInformationPanel background={quoteBackground} >
+          <Quote />
+        </BeautifulInformationPanel >
+      </div>
+
+
 
       <News />
 
-      < Footer />
+      <Footer />
+
     </div >
   )
 }

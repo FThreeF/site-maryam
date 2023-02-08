@@ -17,13 +17,16 @@ const News = () => {
         },
     ]
     return (
-        <div className={styleNames.block}>
+        <div className={`${styleNames.block} zoom`}>
             <div className={`${styleNames.container} container`}>
                 <BeautifulTitle>Новости</BeautifulTitle>
-                <div className={styleNames.group}>
+                <div className={`${styleNames.group} ${styleNames.phoneHide}`}>
                     {info.map(el =>
                         <BlockNews title={el.title} date={el.date} text={el.text} />
                     )}
+                </div>
+                <div className={`${styleNames.group} ${styleNames.phoneView}`}>
+                    <BlockNews title={info[0].title} date={info[0].date} text={info[0].text} />
                 </div>
                 <button className={styleNames.button}>
                     <div className={styleNames.buttonText}>

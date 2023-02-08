@@ -4,11 +4,9 @@
 }
 
 
-@media (max-width: 1024px) {
-    .block {
-        gap: 40px;
-    }
-}
+
+
+
 
 .button {
     color: white;
@@ -17,7 +15,39 @@
     background-color: transparent;
 }
 
+
+
+
+
 .button:hover {
     color: #2F6FCF;
     transition: ease-in 150ms;
+}
+
+@media screen and (max-width: 992px) {
+    .block {
+        gap: 30px;
+    }
+    .button {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .block {
+        gap: 30px;
+    }
+    .button {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .block {
+        gap: 30px;
+    }
+    .button {
+        display: none;
+    }
+
 }

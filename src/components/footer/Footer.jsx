@@ -4,7 +4,7 @@ import { YMaps, Map, Placemark, FullscreenControl } from 'react-yandex-maps';
 
 const Footer = () => {
     return (
-        <footer className={styleNames.block}>
+        <footer className={`${styleNames.block} zoom`}>
             <div className={`${styleNames.container} container`}>
                 <div className={styleNames.contacts}>
                     <h3 className={styleNames.title}>Контакты</h3>
@@ -22,24 +22,20 @@ const Footer = () => {
                         <textarea className={styleNames.textarea} placeholder='Сообщение' name="" id="" cols="30" rows="10"></textarea>
                     </div>
                 </div>
-
-
                 <div className={styleNames.mapBlock}>
-                    <YMaps>
+                    <YMaps className={styleNames.YMaps}>
                         <Map
                             className={styleNames.map}
                             defaultState={{
                                 center: [55.670524, 37.633814],
                                 zoom: 16,
                                 controls: []
-                            }}>
+                            }}
+                            width="100%" height="100%">
                             <Placemark geometry={[55.670524, 37.633814]} />
                         </Map>
                     </YMaps>
                 </div>
-
-
-
             </div>
         </footer>
     )

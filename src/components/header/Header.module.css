@@ -1,7 +1,7 @@
 .block {
     position: absolute;
     z-index: 1;
-    top: 63px;
+    top: 44px;
     left: 0;
     width: 100%;
     height: 140px;
@@ -9,12 +9,116 @@
 
 
 .container {
-    max-width: 1511px;
-    height: 100%;
+    max-width: 1541px;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     box-sizing: content-box;
-    padding: 10px;
+    overflow: inherit;
+}
+
+.button {
+    position: fixed;
+    z-index: 3;
+    top: 0;
+    right: 14px;
+    display: none;
+    border: none;
+    width: 18px;
+    height: 15px;
+    background-color: black;
+    background: url(./menuButton.svg) center /100% no-repeat;
+    transition: 300ms;
+    outline: none;
+}
+
+.button_active {
+    transition: 300ms;
+    transform: rotate(90deg);
+}
+
+
+.panel {
+    position: fixed;
+    top: 0;
+    right: -213px;
+    width: 213px;
+    height: 100vh;
+    background-color: rgba(51, 51, 51, 0.7);
+    transition: 300ms;
+    display: none;
+    align-items: center;
+    flex-direction: column;
+}
+
+.panel_active {
+    right: 0;
+    transition: 300ms;
+    display: none;
+}
+
+
+.menuLogo {
+    margin-top: 33px;
+    margin-bottom: 26px;
+    width: 67px;
+    height: 78px;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 50px;
+}
+
+
+.item {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    transition: ease-in 150ms;
+}
+
+
+.item:hover {
+    color: #2F6FCF;
+    transition: ease-in 150ms;
+}
+
+@media screen and (max-height: 800px) {
+    .block {
+        top: 0px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .button {
+        display: flex;
+        top: 14px;
+    }
+
+    .logo {
+        position: relative;
+        top: 20px;
+    }
+
+    .panel {
+        display: flex;
+    }
+
+    .panel_active {
+        display: flex;
+    }
 }

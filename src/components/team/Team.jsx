@@ -15,7 +15,7 @@ const Team = () => {
         { image: ElenaSimonova, name: 'Елена Симонова', text: 'Бухгалтер' },
     ]
     return (
-        <div className={`${styleNames.block} team`}>
+        <div className={`${styleNames.block} team zoom nonePhone`}>
             <div className={`${styleNames.container} container`}>
                 <BeautifulTitle>Команда</BeautifulTitle>
                 <div className={styleNames.subtitle}>Захотели присоединиться к команде? Напишете нам, будем рады вам</div>

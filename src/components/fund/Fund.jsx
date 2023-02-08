@@ -5,7 +5,7 @@ import YaroslavFokin from './YaroslavFokin.png';
 
 const Fund = () => {
     return (
-        <div className={`${styleNames.block} fund`}>
+        <div className={`${styleNames.block} fund zoom`}>
             <div className={`${styleNames.container} container`}>
                 <BeautifulTitle className={styleNames.title}>О Фонде</BeautifulTitle>
                 <div className={styleNames.group}>

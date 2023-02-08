@@ -23,3 +23,13 @@
     height: 3px;
     background-color: black;
 }
+
+@media screen and (max-width: 576px) {
+    .line:last-child {
+        display: none;
+    }
+    .title {
+        min-width: 190px;
+        font-size: 26px;
+    }
+}
