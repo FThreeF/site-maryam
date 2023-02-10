@@ -23,15 +23,16 @@ const MenuBlock = () => {
     return (
         <nav className={styleNames.block}>
 
-            {/* <Link className={styleNames.button} to='/*'>Главная</Link>
-            <Link className={styleNames.button} to='/aboutUs'>О нас</Link>
-            <Link className={styleNames.button} to='/howToHelp'>Как помочь</Link> */}
 
 
 
-            <button onClick={() => ScrollPC('mainBlock')} className={styleNames.button}>Главная</button>
+            {/* <button onClick={() => ScrollPC('mainBlock')} className={styleNames.button}>Главная</button>
             <button onClick={() => ScrollPC('fund')} className={styleNames.button}>О нас</button>
-            <button onClick={() => ScrollPC('programs')} className={styleNames.button}>Как помочь</button>
+            <button onClick={() => ScrollPC('programs')} className={styleNames.button}>Как помочь</button> */}
+
+            <Link className={styleNames.button} to='/*'>Главная</Link>
+            <Link className={styleNames.button} to='/aboutUs'>О нас</Link>
+            <Link className={styleNames.button} to='/howToHelp'>Как помочь</Link>
             <button onClick={() => ScrollPC('team')} className={styleNames.button}>Команда</button>
             <button onClick={() => ScrollPC('documents')} className={styleNames.button}>Отчеты</button>
         </nav>

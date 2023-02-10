@@ -1,9 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styleNames from './Header.module.css';
-import logo from './headerLogo.svg';
 import MenuBlock from './menuBlock/MenuBlock';
-import menuLogo from './menuLogo.svg';
+import logo from './logo.svg';
 
 const Header = ({ type }) => {
 
@@ -42,7 +41,7 @@ const Header = ({ type }) => {
                 <MenuBlock />
                 <button onClick={setPanel} className={styleNames.button}></button>
                 <div className={styleNames.panel}>
-                    <img className={styleNames.menuLogo} src={menuLogo} alt="" />
+                    <img className={styleNames.menuLogo} src={logo} alt="" />
                     <nav className={styleNames.menu}>
                         {/* <Link className={styleNames.item} to='/*'>Главная</Link>
                         <Link className={styleNames.item} to='/aboutUs'>О нас</Link>

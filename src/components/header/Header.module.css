@@ -59,11 +59,19 @@
 }
 
 
-.menuLogo {
-    margin-top: 33px;
+.logo {
+    width: 120px;
+    height: 140px;
+    margin-top: 20px;
     margin-bottom: 26px;
+}
+
+
+.menuLogo {
     width: 67px;
     height: 78px;
+    margin-top: 20px;
+    margin-bottom: 26px;
 }
 
 .menu {

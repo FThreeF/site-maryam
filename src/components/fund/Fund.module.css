@@ -11,6 +11,9 @@
 
 .textGroup {
     width: 689px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
 
 .text {

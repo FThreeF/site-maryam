@@ -43,7 +43,7 @@ const AboutFund = () => {
                     </div>
 
                     <div className={styleNames.group}>
-                        <div className={styleNames.title}>Наши основные проекты:</div>
+                        <div className={styleNames.titleList}>Наши основные проекты:</div>
                         <ul className={styleNames.list}>
                             <li className={styleNames.item}>Иппотерапия;</li>
                             <li className={styleNames.item}>Проведение мастер-классов по прикладному искусству;</li>
@@ -55,7 +55,7 @@ const AboutFund = () => {
 
                 <div className={styleNames.wrapper}>
                     <div className={styleNames.group}>
-                        <div className={styleNames.title}>Фонд имеет широкий спектр услуг:</div>
+                        <div className={styleNames.titleList}>Фонд имеет широкий спектр услуг:</div>
                         <ul className={styleNames.list}>
                             <li className={styleNames.item}>Социальную поддержку и защиту людей с инвалидностью и членам их семей, пенсионерам, детям и подросткам из неимущих и малообеспеченных семей, детям, оставшимся без попечения родителей и иным социально уязвимым категориям граждан;</li>
                             <li className={styleNames.item}>Содействие в социализации, обучении, пред-профессиональной и профессиональной подготовке и переподготовке, трудоустройстве людей с инвалидностью и членов их семей, подростков, людей предпенсионного и пенсионного возраста, выпускников интернатов для детей, оставшихся без попечения родителей и иных социально уязвимых категорий граждан.</li>

@@ -16,13 +16,15 @@ const Footer = () => {
                         <div className={styleNames.text}>mail@rambler.ru</div>
                     </div>
                 </div>
-                <div className={styleNames.message}>
+                <form className={styleNames.message} action="">
                     <h3 className={styleNames.title}>Оставьте сообщение</h3>
                     <div className={styleNames.group}>
                         <input className={styleNames.input} type="email" placeholder='Email' />
                         <textarea className={styleNames.textarea} placeholder='Сообщение' name="" id="" cols="30" rows="10"></textarea>
+                        <input className={styleNames.button} type="submit" value="Отправить"></input>
                     </div>
-                </div>
+                </form>
+
                 <div className={styleNames.mapBlock}>
                     <YMaps className={styleNames.YMaps}>
                         <Map
