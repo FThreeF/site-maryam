@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site-maryam/static/css/main.9275141e.css",
-    "main.js": "/site-maryam/static/js/main.18cf3422.js",
+    "main.css": "/site-maryam/static/css/main.e43af426.css",
+    "main.js": "/site-maryam/static/js/main.83bd94c3.js",
     "static/media/quoteBackground.png": "/site-maryam/static/media/quoteBackground.66f2095b219f2a46bb43.png",
     "static/media/yourHelpBackground.png": "/site-maryam/static/media/yourHelpBackground.d7b0eb7c2f34dc23f1e1.png",
     "static/media/children.png": "/site-maryam/static/media/children.924ef38835c871e21433.png",
@@ -11,7 +11,11 @@
     "static/media/LeonidTitov.png": "/site-maryam/static/media/LeonidTitov.344a87a712cb62e1faa3.png",
     "static/media/ElenaSimonova.png": "/site-maryam/static/media/ElenaSimonova.ff68da1a9c1acdce5543.png",
     "static/media/YaroslavFokin.png": "/site-maryam/static/media/YaroslavFokin.116b1bd2e9fcd13c74a6.png",
+    "static/media/ivan.png": "/site-maryam/static/media/ivan.c9abf72141ecda59ee0a.png",
+    "static/media/juliana.png": "/site-maryam/static/media/juliana.666411b44b2f55ee0c35.png",
     "static/media/AliceTikhomirova.png": "/site-maryam/static/media/AliceTikhomirova.490d9e359abb6f9f46f2.png",
+    "static/media/peter.png": "/site-maryam/static/media/peter.cb8ca19e06062fdc4b1e.png",
+    "static/media/stephanie.png": "/site-maryam/static/media/stephanie.b2ad0ff0a01b253d6216.png",
     "static/media/headerLogo.svg": "/site-maryam/static/media/headerLogo.3ffd4279ec4b96c5de7f6f2743069423.svg",
     "static/media/menuLogo.svg": "/site-maryam/static/media/menuLogo.08486f592d9aaf3b9cb6e8fc78005a26.svg",
     "static/media/statisticsImage.png": "/site-maryam/static/media/statisticsImage.b210f9a85c9694c34b0e.png",
@@ -21,11 +25,11 @@
     "static/media/documentIcon.svg": "/site-maryam/static/media/documentIcon.3723318396bca5fcbecf1293c772f245.svg",
     "index.html": "/site-maryam/index.html",
     "static/media/menuButton.svg": "/site-maryam/static/media/menuButton.b4a35e210a60ab896cba.svg",
-    "main.9275141e.css.map": "/site-maryam/static/css/main.9275141e.css.map",
-    "main.18cf3422.js.map": "/site-maryam/static/js/main.18cf3422.js.map"
+    "main.e43af426.css.map": "/site-maryam/static/css/main.e43af426.css.map",
+    "main.83bd94c3.js.map": "/site-maryam/static/js/main.83bd94c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.9275141e.css",
-    "static/js/main.18cf3422.js"
+    "static/css/main.e43af426.css",
+    "static/js/main.83bd94c3.js"
   ]
 }
