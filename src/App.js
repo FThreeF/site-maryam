@@ -21,14 +21,14 @@ const App = () => {
       <div className="app">
         <Routes>
           
-          <Route path='*' element={<Header />} />
+          <Route path='/site-maryam' element={<Header />} />
           <Route path='/aboutUs' element={<NavMenu />} />
           <Route path='/howToHelp' element={<NavMenu />} />
 
         </Routes>
     
         <Routes>
-          <Route path='*' element={<Start yourHelpBackground={yourHelpBackground} quoteBackground={quoteBackground} />} />
+          <Route path='/site-maryam' element={<Start yourHelpBackground={yourHelpBackground} quoteBackground={quoteBackground} />} />
           <Route path='/aboutUs' element={<AboutUs />} />
           <Route path='/howToHelp' element={<HowToHelp />} />
         </Routes>

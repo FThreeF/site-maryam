@@ -12,11 +12,11 @@ const NavMenu = () => {
                     <Link className={styleNames.logoLink} to='/*'></Link>
                 </div>
                 <nav className={styleNames.menu}>
-                    <Link className={styleNames.button} to='/*'>Главная</Link>
+                    <Link className={styleNames.button} to='/site-maryam'>Главная</Link>
                     <Link className={styleNames.button} to='/aboutUs'>О нас</Link>
                     <Link className={styleNames.button} to='/howToHelp'>Как помочь</Link>
-                    <Link className={styleNames.button} to='/*'>Команда</Link>
-                    <Link className={styleNames.button} to='/*'>Отчеты</Link>
+                    <Link className={styleNames.button} to='/site-maryam'>Команда</Link>
+                    <Link className={styleNames.button} to='/site-maryam'>Отчеты</Link>
                 </nav>
             </div>
         </div>

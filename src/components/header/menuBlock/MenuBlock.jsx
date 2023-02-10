@@ -8,7 +8,8 @@ const MenuBlock = () => {
 
     const ScrollPC = (name) => {
         const block = document.querySelector(`.${name}`)
-        if (block) scrollToPC(block);
+        scrollToPC(block);
+        console.log(`${block} : ${block.offsetTop} : ${window.scroll.offsetTop}`) 
     }
 
     const scrollToPC = element => {
@@ -17,6 +18,7 @@ const MenuBlock = () => {
             left: 0,
             top: element.offsetTop,
             behavior: 'smooth',
+
         })
     }
 
@@ -30,7 +32,7 @@ const MenuBlock = () => {
             <button onClick={() => ScrollPC('fund')} className={styleNames.button}>О нас</button>
             <button onClick={() => ScrollPC('programs')} className={styleNames.button}>Как помочь</button> */}
 
-            <Link className={styleNames.button} to='/*'>Главная</Link>
+            <Link className={styleNames.button} to='/site-maryam'>Главная</Link>
             <Link className={styleNames.button} to='/aboutUs'>О нас</Link>
             <Link className={styleNames.button} to='/howToHelp'>Как помочь</Link>
             <button onClick={() => ScrollPC('team')} className={styleNames.button}>Команда</button>

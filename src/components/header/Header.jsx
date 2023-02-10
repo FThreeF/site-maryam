@@ -8,7 +8,8 @@ const Header = ({ type }) => {
 
     const Scroll = (name) => {
         const block = document.querySelector(`.${name}`)
-        if (block) scrollTo(block);
+        scrollTo(block);
+
     }
 
     const scrollTo = element => {
@@ -50,9 +51,14 @@ const Header = ({ type }) => {
                         <button onClick={() => Scroll('documents')} className={styleNames.item}>Отчеты</button> */}
 
 
-                        <button onClick={() => Scroll('mainBlock')} className={styleNames.item}>Главная</button>
+                        <Link className={styleNames.item} to='/site-maryam'>Главная</Link>
+                        <Link className={styleNames.item} to='/aboutUs'>О нас</Link>
+                        <Link className={styleNames.item} to='/howToHelp'>Как помочь</Link>
+
+
+                        {/* <button onClick={() => Scroll('mainBlock')} className={styleNames.item}>Главная</button>
                         <button onClick={() => Scroll('fund')} className={styleNames.item}>О нас</button>
-                        <button onClick={() => Scroll('programs')} className={styleNames.item}>Как помочь</button>
+                        <button onClick={() => Scroll('programs')} className={styleNames.item}>Как помочь</button> */}
                         <button onClick={() => Scroll('news')} className={styleNames.item}>Новости</button>
                         {/* <button onClick={() => Scroll('documents')} className={styleNames.button}>Отчеты</button> */}
 
