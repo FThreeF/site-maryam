@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<rss version="2.0">
+<channel>
+<title>My News</title>
+<link>http://mysite.com/</link>
+<description>News from my family.</description>
+<language>en-us</language>
+<pubDate>Tue, 10 Jun 2006 04:00:00 GMT</pubDate>
+
+<lastBuildDate>Tue, 10 Jun 2006 09:41:01 GMT</lastBuildDate>
+<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+<generator>Weblog Editor 2.0</generator>
+<managingEditor>editor@mysite.com</managingEditor>
+<webMaster>webmaster@mysite.com</webMaster>
+
+<item>
+<title>My Birthday</title>
+<link>http://mysite.com/blog/2006/mybirthday.php</link>
+<description>I celebrate my birthday today!</description>
+<pubDate>Tue, 01 Jun 2006 09:39:21 GMT</pubDate>
+<guid>http://mysite.com/blog/2006/06/01.html#item1</guid>
+</item>
+
+<item>
+<title>My new PC</title>
+<link>http://mysite.com/blog/2006/mynewpc.php</link>
+<description>I want to buy new PC.</description>
+<pubDate>Tue, 27 May 2006 08:37:32 GMT</pubDate>
+<guid>http://mysite.com/blog/2006/05/27.html#item1</guid>
+</item>
+
+</channel>
+</rss>

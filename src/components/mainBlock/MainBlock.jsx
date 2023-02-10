@@ -1,5 +1,5 @@
 import React from 'react';
-import InteractiveButton from '../UI/interactiveButton/InteractiveButton';
+import InteractiveButton from '../interactiveButton/InteractiveButton';
 import styleNames from './MainBlock.module.css';
 import background from './mainBlockBackground.png';
 

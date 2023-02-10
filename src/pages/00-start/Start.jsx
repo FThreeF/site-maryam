@@ -1,28 +1,27 @@
 import React from 'react';
+import styleNames from './styleNames.module.css';
+
+
+
+import MainBlock from '../../components/mainBlock/MainBlock';
+import InformationPanel from '../../components/informationPanel/InformationPanel';
+import HelpInformation from '../../components/helpInformation/HelpInformation';
+import Fund from '../../components/fund/Fund';
+import Explanations from '../../components/explanations/Explanations';
+import Programs from '../../components/programs/Programs';
+import Team from '../../components/team/Team';
+import Statistics from '../../components/statistics/Statistics';
+import BeautifulInformationPanel from '../../components/beautifulInformationPanel/BeautifulInformationPanel';
+import YourHelp from '../../components/yourHelp/YourHelp';
+import Documents from '../../components/documents/Documents';
+import Quote from '../../components/quote/Quote';
+import News from '../../components/news/News';
 
 
 
 
-import Header from '../header/Header';
-import MainBlock from '../mainBlock/MainBlock';
-import InformationPanel from '../UI/informationPanel/InformationPanel';
-import HelpInformation from '../helpInformation/HelpInformation';
-import Fund from '../fund/Fund';
-import Explanations from '../explanations/Explanations';
-import Programs from '../programs/Programs';
-import Team from '../team/Team';
-import Statistics from '../statistics/Statistics';
-import BeautifulInformationPanel from '../UI/beautifulInformationPanel/BeautifulInformationPanel';
-import YourHelp from '../yourHelp/YourHelp';
-import Documents from '../documents/Documents';
-import Quote from '../quote/Quote';
-import News from '../news/News';
-import Footer from '../footer/Footer';
 
-
-
-
-const MainPage = ({yourHelpBackground, quoteBackground}) => {
+const Start = ({yourHelpBackground, quoteBackground}) => {
     return (
         <div>
             <MainBlock />
@@ -124,4 +123,4 @@ const MainPage = ({yourHelpBackground, quoteBackground}) => {
     )
 }
 
-export default MainPage;
+export default Start;

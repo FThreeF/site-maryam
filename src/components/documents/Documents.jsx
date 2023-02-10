@@ -1,9 +1,9 @@
 import React from 'react';
-import BeautifulTitle from '../UI/beautifulTitle/BeautifulTitle';
+import BeautifulTitle from '../beautifulTitle/BeautifulTitle';
 import BlockDocuments from './blockDocuments/BlockDocuments';
 import styleNames from './Documents.module.css';
 import documentIcon from './documentIcon.svg';
-import InteractiveButton from '../UI/interactiveButton/InteractiveButton';
+import InteractiveButton from '../interactiveButton/InteractiveButton';
 
 const Documents = () => {
     let info = [

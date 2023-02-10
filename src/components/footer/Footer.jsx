@@ -1,5 +1,6 @@
 import React from 'react';
-import styleNames from './Footer.module.css';
+import styleNames from './styleNames.module.css';
+
 import { YMaps, Map, Placemark, FullscreenControl } from 'react-yandex-maps';
 
 const Footer = () => {

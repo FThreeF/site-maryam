@@ -1,5 +1,5 @@
 import React from 'react';
-import BeautifulTitle from '../UI/beautifulTitle/BeautifulTitle';
+import BeautifulTitle from '../beautifulTitle/BeautifulTitle';
 import styleNames from './Programs.module.css';
 import image1 from './programsImage1.png';
 import image2 from './programsImage2.png';

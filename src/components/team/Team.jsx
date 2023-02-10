@@ -1,5 +1,5 @@
 import React from 'react';
-import BeautifulTitle from '../UI/beautifulTitle/BeautifulTitle';
+import BeautifulTitle from '../beautifulTitle/BeautifulTitle';
 import BlockTeam from './blockTeam/BlockTeam';
 import styleNames from './Team.module.css';
 import LeonudTitov from './LeonidTitov.png';

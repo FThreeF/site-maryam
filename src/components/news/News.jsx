@@ -1,5 +1,5 @@
 import React from 'react';
-import BeautifulTitle from '../UI/beautifulTitle/BeautifulTitle';
+import BeautifulTitle from '../beautifulTitle/BeautifulTitle';
 import BlockNews from './blockNews/BlockNews';
 import styleNames from './News.module.css';
 

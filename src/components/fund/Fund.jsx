@@ -1,5 +1,5 @@
 import React from 'react';
-import BeautifulTitle from '../UI/beautifulTitle/BeautifulTitle';
+import BeautifulTitle from '../beautifulTitle/BeautifulTitle';
 import styleNames from './Fund.module.css';
 import YaroslavFokin from './YaroslavFokin.png';
 
