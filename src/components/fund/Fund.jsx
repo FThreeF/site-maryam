@@ -1,7 +1,7 @@
 import React from 'react';
 import BeautifulTitle from '../beautifulTitle/BeautifulTitle';
 import styleNames from './Fund.module.css';
-import YaroslavFokin from './YaroslavFokin.png';
+import Yuri from './Yuri.png';
 
 const Fund = () => {
     return (
@@ -23,7 +23,7 @@ const Fund = () => {
                     </div>
 
                     <div className={styleNames.group2}>
-                        <img className={styleNames.image} src={YaroslavFokin} alt="" />
+                        <img className={styleNames.image} src={Yuri} alt="" />
                         <div className={styleNames.name}>Ю.В. Капустин</div>
                     </div>
                 </div>

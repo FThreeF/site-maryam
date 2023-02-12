@@ -1,9 +1,9 @@
 import React from 'react';
 import styleNames from './InteractiveButton.module.css';
 
-const InteractiveButton = ({children, ...props}) => {
+const InteractiveButton = ({children, onClick, ...props}) => {
     return (
-        <button className={`${styleNames.button} ${(props.flip) ? styleNames.right : styleNames.left}`}>{children}</button>
+        <button onClick={onClick} className={`${styleNames.button} ${(props.flip) ? styleNames.right : styleNames.left}`}>{children}</button>
     )
 }
 

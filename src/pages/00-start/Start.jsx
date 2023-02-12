@@ -16,6 +16,7 @@ import YourHelp from '../../components/yourHelp/YourHelp';
 import Documents from '../../components/documents/Documents';
 import Quote from '../../components/quote/Quote';
 import News from '../../components/news/News';
+import PanelWantHelp from '../../components/panelWantHelp/PanelWantHelp';
 
 
 
@@ -24,6 +25,8 @@ import News from '../../components/news/News';
 const Start = ({yourHelpBackground, quoteBackground}) => {
     return (
         <div>
+            {/* <PanelWantHelp /> */}
+
             <MainBlock />
             
             <InformationPanel>

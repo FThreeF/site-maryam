@@ -4,6 +4,12 @@ import styleNames from './MainBlock.module.css';
 import background from './mainBlockBackground.png';
 
 const MainBlock = () => {
+
+
+    
+    
+
+
     return (
         <div className={`${styleNames.block} mainBlock`}>
             <div className={`${styleNames.container} container zoom`}>

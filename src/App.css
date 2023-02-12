@@ -35,6 +35,58 @@ body,
 
 
 
+/* 
+#SliderHowToHelp > .swiper-pagination-bullet {
+    border: 2px solid red;
+} */
+
+
+.swiper-pagination-bullet {
+    background-color: transparent !important;
+    border: 1px solid black !important;
+    width: 35px !important;
+    height: 6px !important;
+    border-radius: 0 !important;
+    opacity: 1 !important;
+
+}
+
+
+
+
+.swiper-pagination-bullet-active {
+    background-color: #000 !important;
+}
+
+.swiper-button-prev {
+    background-image: url(./source/Prev.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.swiper-button-prev::after {
+    display: none;
+}
+
+
+
+
+
+
+.swiper-button-next {
+    background-image: url(./source/Next.svg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+
+
 
 @media screen and (max-width: 1300px) {
     .container {

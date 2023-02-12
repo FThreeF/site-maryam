@@ -9,7 +9,7 @@ const NavMenu = () => {
             <div className={`${styleNames.container} container`}>
                 <div>
                     <img className={styleNames.logo} src={logo} alt="" />
-                    <Link className={styleNames.logoLink} to='/*'></Link>
+                    <Link className={styleNames.logoLink} to='/site-maryam'></Link>
                 </div>
                 <nav className={styleNames.menu}>
                     <Link className={styleNames.button} to='/site-maryam'>Главная</Link>
