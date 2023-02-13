@@ -1,4 +1,6 @@
-.block {}
+.block {
+    margin: 50px 0;
+}
 
 .container {
     display: flex;

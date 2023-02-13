@@ -1,11 +1,11 @@
 import React from 'react';
 import styleNames from './BeautifulTitle.module.css';
 
-const BeautifulTitle = ({ children }) => {
+const BeautifulTitle = ({ children, ...props }) => {
     return (
         <div className={styleNames.block}>
             <div className={styleNames.line}></div>
-            <h3 className={styleNames.title}>{children}</h3>
+            <h3 className={(props.big) ? styleNames.titleBig : styleNames.title}>{children}</h3>
             <div className={styleNames.line}></div>
         </div>
     )

@@ -17,6 +17,18 @@
     color: #000000;
 }
 
+.titleBig {
+    min-width: 860px;
+    height: 49px;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+}
+
+
 
 .line {
     width: 100%;

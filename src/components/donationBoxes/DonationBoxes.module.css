@@ -1,0 +1,104 @@
+.block {
+    margin: 120px 0 140px 0;
+}
+
+.wrapper {
+    padding: 100px 0px 0px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.canvas {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.group {
+    width: 560px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 64px;
+    height: 64px;
+    border-radius: 100px;
+    background-color: #2F6FCF;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 49px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+    position: absolute;
+    top: -25px;
+    left: -70px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 39px;
+    margin-bottom: 30px;
+    color: #000000;
+
+}
+
+
+
+
+.text {
+
+    position: relative;
+    text-indent: 30px;
+    margin-left: 0px;
+    list-style-type: none;
+
+
+
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #000000;
+}
+
+
+.text::after {
+    position: absolute;
+    top: 12px;
+    left: 10px;
+    content: '';
+    width: 4px;
+    height: 4px;
+    background-color: #000000;
+    clip-path: circle(50%)
+}
+
+
+
+
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    height: 60px;
+}
+
+
+
+.image {
+    width: 645px;
+    height: 430px;
+}

@@ -13,7 +13,7 @@
 
 .container {
     display: flex;
-    
+
 }
 
 .wrapper {
@@ -82,12 +82,25 @@
     line-height: 20px;
     color: rgb(33, 33, 33);
     padding: 10px;
-    padding-right: 10px;
+    padding-right: 25px;
     outline: none;
     text-align: end;
     position: relative;
 }
 
+
+.symbool {
+    position: absolute;
+    z-index: 20;
+    top: 50%;
+    left: 115px;
+    transform: translateY(-50%);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #737373;
+}
 
 .button {
     width: 276px;
@@ -126,6 +139,7 @@
 }
 
 .group2 {
+    position: relative;
     display: flex;
     justify-content: space-between;
 }

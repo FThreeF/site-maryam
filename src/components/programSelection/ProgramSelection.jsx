@@ -57,7 +57,7 @@ const ProgramSelection = () => {
     return (
         <div className={styleNames.block}>
             <div className={`${styleNames.container} container`}>
-                <BeautifulTitle>Выберите программу</BeautifulTitle>
+                <BeautifulTitle big>Выберите программу</BeautifulTitle>
                 <div className={styleNames.text}>Наша цель — помочь как можно большему количеству нуждающихся</div>
                 <Swiper
                     cssMode={true}

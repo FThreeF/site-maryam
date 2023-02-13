@@ -22,7 +22,8 @@ const PanelWantHelp = () => {
                         <input className={styleNames.input} type="email" placeholder='E-mail (необязательно)' />
                         <textarea className={styleNames.textarea} placeholder='Cообщение'></textarea>
                         <div className={styleNames.group2}>
-                            <input className={styleNames.inputMoney} type="text" placeholder='100' />
+                            <div className={styleNames.symbool}>Р</div>
+                            <input className={styleNames.inputMoney} type="number" placeholder='100' />
                             <input className={styleNames.button} type="submit" value='Пожертвовать' />
                         </div>
                     </div>
