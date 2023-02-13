@@ -1,11 +1,12 @@
 {
   "files": {
-    "main.css": "/site-maryam/static/css/main.f300130d.css",
-    "main.js": "/site-maryam/static/js/main.6ec9cc51.js",
+    "main.css": "/site-maryam/static/css/main.342248b5.css",
+    "main.js": "/site-maryam/static/js/main.0a3e4bea.js",
     "static/media/quoteBackground.png": "/site-maryam/static/media/quoteBackground.66f2095b219f2a46bb43.png",
     "static/media/yourHelpBackground.png": "/site-maryam/static/media/yourHelpBackground.d7b0eb7c2f34dc23f1e1.png",
     "static/media/children.png": "/site-maryam/static/media/children.924ef38835c871e21433.png",
     "static/media/mainBlockBackground.png": "/site-maryam/static/media/mainBlockBackground.b6c8984b2d08dff7f6a9.png",
+    "static/media/Image.png": "/site-maryam/static/media/Image.48225caff4e956293869.png",
     "static/media/Yuri.png": "/site-maryam/static/media/Yuri.6db9f055f69e6473b645.png",
     "static/media/programsImage1.png": "/site-maryam/static/media/programsImage1.ff41de48acda026bcfb5.png",
     "static/media/programsImage2.png": "/site-maryam/static/media/programsImage2.d7f526cca3c5500a85fe.png",
@@ -25,14 +26,15 @@
     "static/media/explanationsIcon2.svg": "/site-maryam/static/media/explanationsIcon2.00938ba60f5ab03219ae3549eafc9dc9.svg",
     "static/media/documentIcon.svg": "/site-maryam/static/media/documentIcon.3723318396bca5fcbecf1293c772f245.svg",
     "index.html": "/site-maryam/index.html",
+    "static/media/Arrow.svg": "/site-maryam/static/media/Arrow.9f5f686b26682103dbe2e055f7855bf1.svg",
     "static/media/Prev.svg": "/site-maryam/static/media/Prev.7decfba70d66c766680e.svg",
     "static/media/Next.svg": "/site-maryam/static/media/Next.01ed08be46009b483fc4.svg",
     "static/media/menuButton.svg": "/site-maryam/static/media/menuButton.b4a35e210a60ab896cba.svg",
-    "main.f300130d.css.map": "/site-maryam/static/css/main.f300130d.css.map",
-    "main.6ec9cc51.js.map": "/site-maryam/static/js/main.6ec9cc51.js.map"
+    "main.342248b5.css.map": "/site-maryam/static/css/main.342248b5.css.map",
+    "main.0a3e4bea.js.map": "/site-maryam/static/js/main.0a3e4bea.js.map"
   },
   "entrypoints": [
-    "static/css/main.f300130d.css",
-    "static/js/main.6ec9cc51.js"
+    "static/css/main.342248b5.css",
+    "static/js/main.0a3e4bea.js"
   ]
 }
