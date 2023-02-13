@@ -6,8 +6,16 @@ import background from './mainBlockBackground.png';
 const MainBlock = () => {
 
 
-    
-    
+    const setPanelWantHelp = () => {
+        document.getElementById('panelWantHelpDeactive').id = 'panelWantHelpActive';
+        document.getElementById('wrapperWantHelpDeactive').id = 'wrapperWantHelpActive';
+    }
+
+    const setPanelNeedHelp = () => {
+        document.getElementById('panelNeedHelpDeactive').id = 'panelNeedHelpActive';
+        document.getElementById('wrapperNeedHelpDeactive').id = 'wrapperNeedHelpActive';
+    }
+
 
 
     return (
@@ -21,8 +29,8 @@ const MainBlock = () => {
                         Оказываем социальную поддержку и благотворительную помощь по Москве и Московской области
                     </div>
                     <div className={styleNames.buttonBlock}>
-                        <InteractiveButton className={styleNames.button} >Хочу помочь</InteractiveButton>
-                        <InteractiveButton className={styleNames.button} flip>Нужна помощь</InteractiveButton>
+                        <InteractiveButton onClick={() => setPanelWantHelp()} className={styleNames.button} >Хочу помочь</InteractiveButton>
+                        <InteractiveButton onClick={() => setPanelNeedHelp()} className={styleNames.button} flip>Нужна помощь</InteractiveButton>
                     </div>
                 </div>
             </div>

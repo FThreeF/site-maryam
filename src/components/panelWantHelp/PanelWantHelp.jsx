@@ -5,14 +5,16 @@ const PanelWantHelp = () => {
 
 
     const offPanel = () => {
-        document.querySelector('.panelWantHelp').className = `${styleNames.block} ${styleNames.deactive}`;
+
+        document.getElementById('panelWantHelpActive').id = 'panelWantHelpDeactive';
+        document.getElementById('wrapperWantHelpActive').id = 'wrapperWantHelpDeactive';
     }
 
 
     return (
-        <div onClick={offPanel} className={`${styleNames.block} ${styleNames.active} panelWantHelp`}>
+        <div onClick={offPanel} id='panelWantHelpDeactive' className={`${styleNames.block}`}>
             <div className={`${styleNames.container} container`}>
-                <div className={styleNames.wrapper}>
+                <form action="" onClick={(event) => event.stopPropagation()} id='wrapperWantHelpDeactive' className={styleNames.wrapper}>
                     <div className={styleNames.title}>Внести свой вклад</div>
                     <div className={styleNames.group}>
                         <input className={styleNames.input} type="text" placeholder='Введите Имя (необязательно)' />
@@ -24,7 +26,7 @@ const PanelWantHelp = () => {
                             <input className={styleNames.button} type="submit" value='Пожертвовать' />
                         </div>
                     </div>
-                </div>
+                </form>
             </div>
         </div>
     )

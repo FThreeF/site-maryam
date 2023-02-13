@@ -85,6 +85,90 @@ body,
     display: none;
 }
 
+#panelWantHelpActive {
+    pointer-events: fill;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 300ms;
+}
+
+#panelWantHelpDeactiev {
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    transition: 300ms;
+}
+
+#wrapperWantHelpActive {
+    top: 50%;
+    transition: 300ms;
+}
+
+#wrapperWantHelpDeactive {
+    top: -25%;
+    transition: 300ms;
+}
+
+
+
+
+
+#panelNeedHelpActive {
+    pointer-events: fill;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 300ms;
+}
+
+#panelNeedHelpDeactiev {
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    transition: 300ms;
+}
+
+#wrapperNeedHelpActive {
+    top: 50%;
+    transition: 300ms;
+}
+
+#wrapperNeedHelpDeactive {
+    top: -25%;
+    transition: 300ms;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#panelArchiveActive {
+    pointer-events: fill;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 300ms;
+}
+
+#panelArchiveDeactiev {
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    transition: 300ms;
+}
+
+#wrapperArchiveActive {
+    top: 50%;
+    transition: 300ms;
+}
+
+#wrapperArchiveDeactive {
+    top: -25%;
+    transition: 300ms;
+}
+
+
+
 
 
 

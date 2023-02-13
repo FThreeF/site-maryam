@@ -10,15 +10,14 @@
 
 
 
-
 .container {
     display: flex;
-    
+
 }
 
 .wrapper {
     width: 457px;
-    height: 493px;
+    max-height: 493px;
     display: flex;
     flex-direction: column;
     background-color: white;
@@ -45,7 +44,8 @@
     color: #000000;
 }
 
-.input {
+.input,
+.select {
     width: 100%;
     height: 48px;
     border: 2px solid #494949;
@@ -56,6 +56,19 @@
     color: rgb(33, 33, 33);
     padding-left: 9px;
     outline: none;
+    
+}
+
+.option {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height */
+
+    display: flex;
+    align-items: center;
+
+    color: rgba(33, 33, 33, 0.7);
 }
 
 .textarea {
@@ -82,15 +95,12 @@
     line-height: 20px;
     color: rgb(33, 33, 33);
     padding: 10px;
-    padding-right: 10px;
     outline: none;
-    text-align: end;
-    position: relative;
+
 }
 
-
 .button {
-    width: 276px;
+    width: 100%;
     height: 36px;
     background: #494949;
     border-radius: 10px;
