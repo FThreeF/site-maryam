@@ -3,7 +3,7 @@
 }
 
 .wrapper {
-    padding: 100px 0px 0px 90px;
+    margin: 100px 0 0 90px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -17,7 +17,7 @@
 }
 
 .group {
-    width: 560px;
+    max-width: 560px;
     position: relative;
     display: flex;
     flex-direction: column;
@@ -59,7 +59,6 @@
 
 
 .text {
-
     position: relative;
     text-indent: 30px;
     margin-left: 0px;
@@ -101,4 +100,82 @@
 .image {
     width: 645px;
     height: 430px;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .block {
+        margin-bottom: 28px;
+    }
+    .container {
+        overflow: visible;
+    }
+
+    .wrapper {
+        width: 100%;
+        margin: 60px auto;
+        position: absolute;
+        position: relative;
+        left: 15%;
+        
+    }
+
+    .canvas {
+        width: 500px;
+    }
+
+    .group {
+        width: 100%;
+    }
+
+    .number {
+        width: 30px;
+        height: 30px;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 24px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        left: -35px;
+        top: -6px;
+        color: #FFFFFF;
+
+    }
+
+    .numberM {
+        top: 4px;
+    }
+
+    .image {
+        display: none;
+    }
+
+    .title {
+        width: 90%;
+        font-style: italic;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        margin-bottom: 10px;
+        color: #000000;
+
+    }
+
+    .text {
+        width: 90%;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        display: flex;
+        align-items: center;
+        color: #000000;
+        text-indent: 20px;
+        position: relative;
+        left: -30px;
+    }
+
+    .text::after {
+        top: 6px;
+    }
 }

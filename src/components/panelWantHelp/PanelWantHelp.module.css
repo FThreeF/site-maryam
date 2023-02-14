@@ -11,6 +11,7 @@
 
 
 
+
 .container {
     display: flex;
 
@@ -33,6 +34,7 @@
     transform: translate(-50%, -50%);
 }
 
+
 .title {
     font-weight: 400;
     font-size: 40px;
@@ -44,6 +46,11 @@
 
     color: #000000;
 }
+
+
+
+
+
 
 .input {
     width: 100%;
@@ -142,4 +149,46 @@
     position: relative;
     display: flex;
     justify-content: space-between;
+}
+
+
+@media screen and (max-width: 576px) {
+    .wrapper {
+        width: 90%;
+        height: 400px;
+    }
+
+    .title {
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .input {
+        font-size: 16px;
+        border: 1px solid #494949;
+    }
+
+    .textarea {
+        font-size: 16px;
+        border: 1px solid #494949;
+    }
+
+    .group {
+        gap: 6px;
+    }
+
+    .button {
+        width: 150px;
+
+    }
+
+    .inputMoney {
+        width: 100px;
+        font-size: 16px;
+        border: 1px solid #494949;
+    }
+
+    .symbool {
+        left: 80px;
+    }
 }

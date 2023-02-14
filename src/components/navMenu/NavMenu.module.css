@@ -10,6 +10,17 @@
     box-sizing: content-box;
     overflow: inherit;
 }
+
+
+.pc {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+}
+
 /* 
 .title {
     font-weight: 700;
@@ -49,4 +60,89 @@
 .button:hover {
     color: #418DFF;
     transition: ease-in 150ms;
+}
+
+.burgerButton {
+    display: flex;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%) rotate(0deg);
+    transition: 300ms;
+    z-index: 22;
+}
+
+.burgerButton_active {
+    transform: translateY(-50%) rotate(90deg); 
+    transition: 300ms;
+}
+
+.mobile {
+
+    width: 100%;
+    height: 50px;
+    
+    position: relative;
+    display: none;
+}
+
+.panel {
+    position: fixed;
+    top: 0;
+    right: -213px;
+    width: 213px;
+    height: 100vh;
+    background-color: rgba(51, 51, 51, 0.7);
+    transition: 300ms;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    z-index: 20;
+}
+
+.panel_active {
+    right: 0;
+    transition: 300ms;
+}
+
+
+.item {
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 32px;
+    color: #fff;
+    background-color: transparent;
+    border: none;
+    transition: ease-in 150ms;
+    text-align: center;
+}
+
+
+.menuLogo {
+    width: 67px;
+    height: 78px;
+    margin-top: 20px;
+    margin-bottom: 26px;
+}
+
+.menuM {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    padding: 0px 50px;
+}
+
+
+@media screen and (max-width: 576px) {
+    .pc {
+        display: none;
+    }
+    .mobile {
+        display: flex;
+    }
+
+    .container {
+        height: 50px;
+    }
 }

@@ -5,6 +5,8 @@
 .container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden !important;
 }
 
 .wrapper {
@@ -74,4 +76,15 @@
 .image {
     margin-top: 80px;
     width: 100%;
+}
+
+@media screen and (max-width: 576px) {
+    .container {
+        gap: 20px;
+    }
+
+    .container:nth-child(2) {
+        padding: 0;
+        margin-top: -50px;
+    }
 }

@@ -40,6 +40,7 @@ body,
     height: 100%;
     padding: 0px 15px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 
@@ -93,6 +94,15 @@ body,
 .swiper-button-next::after {
     display: none;
 }
+/* 
+@media screen and (max-width: 576px) {
+    .swiper-button-next {
+        display: none !important;
+    }
+    .swiper-button-prev {
+        display: none !important;
+    }
+} */
 
 #panelWantHelpActive {
     pointer-events: fill;
@@ -112,7 +122,7 @@ body,
 }
 
 #wrapperWantHelpDeactive {
-    top: -25%;
+    top: -40%;
     transition: 300ms;
 }
 
@@ -138,7 +148,7 @@ body,
 }
 
 #wrapperNeedHelpDeactive {
-    top: -25%;
+    top: -40%;
     transition: 300ms;
 }
 
@@ -172,10 +182,9 @@ body,
 }
 
 #wrapperArchiveDeactive {
-    top: -25%;
+    top: -40%;
     transition: 300ms;
 }
-
 
 
 
@@ -285,11 +294,6 @@ body,
 }
 
 
-@media screen and (max-width: 576px) {
-    .phoneHide {
-        display: none;
-    }
-}
 
 .titlePage {
     font-weight: 700;
@@ -298,4 +302,37 @@ body,
     display: flex;
     align-items: center;
     color: #FFFFFF;
+}
+
+@media screen and (max-width: 576px) {
+    .phoneHide {
+        display: none;
+    }
+
+    .titlePage {
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 32px;
+        /* identical to box height */
+
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+
+    }
+}
+
+.pc {}
+.mobile {}
+@media screen and (max-width: 576px) {
+    .pc {
+        display: none !important;
+    }
+}
+
+@media screen and (min-width: 577px) {
+    .mobile {
+        display: none !important;
+    }
 }

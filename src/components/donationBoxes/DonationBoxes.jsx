@@ -8,12 +8,13 @@ const DonationBoxec = () => {
     return (
         <div className={styleNames.block}>
             <div className={`${styleNames.container} container`}>
-                <BeautifulTitle big>Боксы для пожертвования</BeautifulTitle>
+                <BeautifulTitle className='pc' big>Боксы для пожертвования</BeautifulTitle>
+                <BeautifulTitle className='mobile' big>Боксы пожертвований</BeautifulTitle>
                 <div className={styleNames.wrapper}>
                     <div className={styleNames.canvas}>
                         <div className={styleNames.group}>
-                            <img className={styleNames.arrow} src={Arrow} alt="" />
-                            <div className={styleNames.number}>1</div>
+                            <img className={`${styleNames.arrow} pc`} src={Arrow} alt="" />
+                            <div className={`${styleNames.number} ${styleNames.numberM}`}>1</div>
                             <div className={styleNames.title}>
                                 Найдите наши боксы для пожертвований
                             </div>
@@ -22,7 +23,7 @@ const DonationBoxec = () => {
                             </div>
                         </div>
                         <div className={styleNames.group}>
-                            <img className={styleNames.arrow} src={Arrow} alt="" />
+                            <img className={`${styleNames.arrow} pc`} src={Arrow} alt="" />
                             <div className={styleNames.number}>2</div>
                             <div className={styleNames.title}>Опустите деньги</div>
                             <div className={styleNames.text}>

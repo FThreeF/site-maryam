@@ -2,13 +2,19 @@
     background-color: #F2F2F2;
     margin-bottom: 60px;
     padding-top: 20px;
-    
+
+}
+
+
+.container {
+    overflow: hidden;
 }
 
 .group {
     display: flex;
     justify-content: space-between;
-    
+    flex-wrap: wrap;
+
 }
 
 .wrapper {
@@ -36,4 +42,21 @@
     align-items: center;
     text-align: center;
     color: #000000;
+}
+
+@media screen and (max-width: 576px) {
+    
+    .block {
+        margin: 0;
+    }
+
+    .wrapper {
+        margin: 0;
+    }
+    
+    .group {
+        margin: 38px 0 46px 0;
+        justify-content: center;
+        gap: 20px;
+    }
 }

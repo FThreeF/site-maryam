@@ -29,5 +29,19 @@
     width: 500px !important;
     display: flex !important;
     justify-content: center !important; 
+    
     padding: 10px;
+    box-sizing: content-box !important;
+}
+
+
+@media screen and (max-width: 576px) {
+    .swiper {
+        padding: 20px 0px 40px 0px !important;
+        width: 322px !important;
+    }
+    .swiperSlider {
+         
+        max-width: 302px !important;
+    }
 }

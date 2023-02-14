@@ -126,3 +126,36 @@
     display: flex;
     justify-content: space-between;
 }
+
+
+
+@media screen and (max-width: 576px) {
+    .wrapper {
+        width: 90%;
+        height: 400px;
+    }
+
+    .title {
+        font-size: 20px;
+        line-height: 10px;
+    }
+
+    .input {
+        font-size: 16px;
+        border: 1px solid #494949;
+    }
+
+    .textarea {
+        font-size: 16px;
+        border: 1px solid #494949;
+    }
+
+    .group {
+        gap: 6px;
+    }
+
+
+
+
+
+}
