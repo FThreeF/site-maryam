@@ -67,7 +67,7 @@ const ProgramSelection = () => {
                     id='SliderHowToHelp'
                     className={`${styleNames.swiper} pc`}
                     modules={[Navigation, Pagination, Scrollbar, A11y]}
-                    spaceBetween={180}
+                    spaceBetween={50}
                     slidesPerView={2}
                     loop={true}
                     navigation

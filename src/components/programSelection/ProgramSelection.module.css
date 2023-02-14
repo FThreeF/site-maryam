@@ -21,17 +21,18 @@
 
 .swiper {
     max-width: 100% !important;
-    padding: 120px 90px 60px !important;
+    padding: 120px 80px 60px !important;
 
 }
 
 .swiperSlider {
-    width: 500px !important;
+    width: 550px !important;
     display: flex !important;
     justify-content: center !important; 
     
     padding: 10px;
     box-sizing: content-box !important;
+
 }
 
 
