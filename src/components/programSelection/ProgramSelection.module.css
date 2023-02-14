@@ -28,8 +28,8 @@
 .swiperSlider {
     width: 550px !important;
     display: flex !important;
-    justify-content: center !important; 
-    
+    justify-content: center !important;
+
     padding: 10px;
     box-sizing: content-box !important;
 
@@ -41,8 +41,21 @@
         padding: 20px 0px 40px 0px !important;
         width: 322px !important;
     }
+
     .swiperSlider {
-         
+
         max-width: 302px !important;
+    }
+
+    .text {
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 10px;
+        display: flex;
+        align-items: center;
+        text-align: right;
+
+        color: #000000;
+
     }
 }
