@@ -72,7 +72,7 @@ const AboutFund = () => {
 
             </div>
             <div className={`${styleNames.container} container`}>
-                <img className={styleNames.image} src={image} alt="" />
+                <img className={`${styleNames.image} pc`} src={image} alt="" />
             </div>
         </div>
     )

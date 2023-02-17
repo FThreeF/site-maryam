@@ -26,6 +26,12 @@ const PanelArchive = () => {
                             <option className={styleNames.option} value="Апрель">Апрель</option>
                             <option className={styleNames.option} value="Май">Май</option>
                             <option className={styleNames.option} value="Июнь">Июнь</option>
+                            <option className={styleNames.option} value="Июль">Июль</option>
+                            <option className={styleNames.option} value="Август">Август</option>
+                            <option className={styleNames.option} value="Сентябрь">Сентябрь</option>
+                            <option className={styleNames.option} value="Октябрь">Октябрь</option>
+                            <option className={styleNames.option} value="Ноябрь">Ноябрь</option>
+                            <option className={styleNames.option} value="Декабрь">Декабрь</option>
                         </select>
                         <input className={styleNames.button} type="submit" value='Пожертвовать' />
                     </div>

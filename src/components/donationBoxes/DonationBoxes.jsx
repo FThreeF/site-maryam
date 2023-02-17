@@ -9,7 +9,7 @@ const DonationBoxec = () => {
         <div className={styleNames.block}>
             <div className={`${styleNames.container} container`}>
                 <BeautifulTitle className='pc' big>Боксы для пожертвования</BeautifulTitle>
-                <BeautifulTitle className='mobile' big>Боксы пожертвований</BeautifulTitle>
+                <div  className={`${styleNames.titleM} mobile`}>Боксы пожертвований</div>
                 <div className={styleNames.wrapper}>
                     <div className={styleNames.canvas}>
                         <div className={styleNames.group}>

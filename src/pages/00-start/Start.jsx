@@ -8,7 +8,6 @@ import InformationPanel from '../../components/informationPanel/InformationPanel
 import HelpInformation from '../../components/helpInformation/HelpInformation';
 import Fund from '../../components/fund/Fund';
 import Explanations from '../../components/explanations/Explanations';
-import Programs from '../../components/programs/Programs';
 import Team from '../../components/team/Team';
 import Statistics from '../../components/statistics/Statistics';
 import BeautifulInformationPanel from '../../components/beautifulInformationPanel/BeautifulInformationPanel';
@@ -21,10 +20,40 @@ import PanelNeedHelp from '../../components/panelNeedHelp/PanelNeedHelp';
 import PanelArchive from '../../components/panelArchive/PanelArchive';
 
 
+import image1 from './programsImage1.png';
+import image2 from './programsImage2.png';
+import ProgramSelection from '../../components/programSelection/ProgramSelection';
+import DonationBoxec from '../../components/donationBoxes/DonationBoxes';
+
+
+const Start = ({ yourHelpBackground, quoteBackground }) => {
+
+
+    let info = [
+        {
+            img: image1,
+            title: '«Здоровое будущее — особым детям!»',
+            text: 'Cодействие в оплате курсов реабилитации и абилитации для подопечных детей. Приобретение для детей-сирот, детей, оставшихся без попечения родителей, детей-инвалидов необходимых для их жизнедеятельности лекарственных препаратов и медицинского оборудования',
+        },
+        {
+            img: image2,
+            title: '"Социальная адаптация детей сирот и детей, оставшихся без попечения родителей"',
+            text: 'Реализация целей и задач данной программы заключается в вовлечении детей-сирот и детей, оставшихся без попечения родителей, в активную социальную жизнь и организации посещения детьми различных развивающих занятий',
+        },
+        {
+            img: image1,
+            title: '«Здоровое будущее — особым детям!»',
+            text: 'Cодействие в оплате курсов реабилитации и абилитации для подопечных детей. Приобретение для детей-сирот, детей, оставшихся без попечения родителей, детей-инвалидов необходимых для их жизнедеятельности лекарственных препаратов и медицинского оборудования',
+        },
+        {
+            img: image2,
+            title: '"Социальная адаптация детей сирот и детей, оставшихся без попечения родителей"',
+            text: 'Реализация целей и задач данной программы заключается в вовлечении детей-сирот и детей, оставшихся без попечения родителей, в активную социальную жизнь и организации посещения детьми различных развивающих занятий',
+        }
+    ]
 
 
 
-const Start = ({yourHelpBackground, quoteBackground}) => {
     return (
         <div>
             <PanelWantHelp />
@@ -32,7 +61,7 @@ const Start = ({yourHelpBackground, quoteBackground}) => {
             <PanelArchive />
 
             <MainBlock />
-            
+
             <InformationPanel>
                 <HelpInformation />
             </InformationPanel>
@@ -43,10 +72,15 @@ const Start = ({yourHelpBackground, quoteBackground}) => {
                 <Explanations />
             </InformationPanel>
 
-            <Programs />
 
-
-            
+            <ProgramSelection 
+            info={info} 
+            big={false} 
+            titlePC={'Выберите программу'}
+            titleMobile={'Программы'}
+            textPC={'Наша цель — помочь как можно большему количеству нуждающихся'}
+            textMobile={'Выберите программу, которой хотите помочь'}
+            />
 
 
             <div className='nonePhone'>
@@ -56,7 +90,7 @@ const Start = ({yourHelpBackground, quoteBackground}) => {
             </div>
 
 
-            
+
             <div className='team'>
                 <Team />
                 < BeautifulInformationPanel background={yourHelpBackground} >
@@ -75,7 +109,7 @@ const Start = ({yourHelpBackground, quoteBackground}) => {
 
             <News />
 
-           
+
 
 
 

@@ -23,6 +23,12 @@ const NavMenu = () => {
         }
     }
 
+    const offPanel = () => {
+        document.querySelector(`.${styleNames.panel}`).className = `${styleNames.panel}`;
+        const burgerButton = document.querySelector(`.${styleNames.burgerButton}`)
+        const panel = document.querySelector(`.${styleNames.panel}`)
+        burgerButton.className = `${styleNames.burgerButton}`;
+    }
 
 
     return (
@@ -47,10 +53,8 @@ const NavMenu = () => {
                         <img className={styleNames.menuLogo} src={menuLogo} alt="" />
                         <div className={styleNames.menuM}>
                             <Link className={styleNames.item} to='/site-maryam'>Главная</Link>
-                            <a className={styleNames.item} href="/aboutUs">O нас</a>
-                            <a className={styleNames.item} href="/howToHelp">Как помочь</a>
-                            {/* <Link className={styleNames.item} to='/aboutUs'>О нас</Link>
-                            <Link className={styleNames.item} to='/howToHelp'>Как помочь</Link> */}
+                            <Link onClick={() => offPanel()} className={styleNames.item} to='/aboutUs'>О нас</Link>
+                            <Link onClick={() => offPanel()} className={styleNames.item} to='/howToHelp'>Как помочь</Link>
                             <Link className={styleNames.item} to='/site-maryam'>Команда</Link>
                             <Link className={styleNames.item} to='/site-maryam'>Отчеты</Link>
                         </div>

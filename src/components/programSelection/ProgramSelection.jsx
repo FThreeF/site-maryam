@@ -12,44 +12,11 @@ import { Navigation, Pagination, Scrollbar, A11y } from 'swiper';
 import 'swiper/css';
 import 'swiper/css/bundle';
 
-import ImageOne from './ImageOne.png';
-import ImageTwo from './ImageTwo.png';
-import ImageThree from './ImageThree.png';
-import ImageFour from './ImageFour.png';
-import ImageFive from './ImageFive.png';
-
-const ProgramSelection = () => {
-
-    let info = [
-        {
-            img: ImageOne,
-            title: '«Здоровое будущее — особым детям!»',
-            text: 'Приобретение для детей-сирот, детей, оставшихся без попечения родителей, детей-инвалидов необходимых для их жизнедеятельности лекарственных препаратов и медицинского оборудования',
-        },
-        {
-            img: ImageTwo,
-            title: '«Здоровое будущее — особым детям!»',
-            text: 'Приобретение для детей-сирот, детей, оставшихся без попечения родителей, детей-инвалидов необходимых для их жизнедеятельности лекарственных препаратов и медицинского оборудования',
-        },
-        {
-            img: ImageThree,
-            title: '«Здоровое будущее — особым детям!»',
-            text: 'Приобретение для детей-сирот, детей, оставшихся без попечения родителей, детей-инвалидов необходимых для их жизнедеятельности лекарственных препаратов и медицинского оборудования',
-        },
-        {
-            img: ImageFour,
-            title: '«Здоровое будущее — особым детям!»',
-            text: 'Приобретение для детей-сирот, детей, оставшихся без попечения родителей, детей-инвалидов необходимых для их жизнедеятельности лекарственных препаратов и медицинского оборудования',
-        },
-        {
-            img: ImageFive,
-            title: '«Здоровое будущее — особым детям!»',
-            text: 'Приобретение для детей-сирот, детей, оставшихся без попечения родителей, детей-инвалидов необходимых для их жизнедеятельности лекарственных препаратов и медицинского оборудования',
-        },
 
 
+const ProgramSelection = ({info, big, titlePC, titleMobile, textPC, textMobile}) => {
 
-    ]
+    
 
 
 
@@ -57,11 +24,11 @@ const ProgramSelection = () => {
     return (
         <div className={styleNames.block}>
             <div className={`${styleNames.container} container`}>
-
-                <BeautifulTitle className='pc' big>Выберите программу</BeautifulTitle>
-                <BeautifulTitle className='mobile'>Программы</BeautifulTitle>
-                <div className={`${styleNames.text} pc`}>Наша цель — помочь как можно большему количеству нуждающихся</div>
-                <div className={`${styleNames.text} mobile`}>Выберите программу, которой хотите помочь</div>
+                
+                <BeautifulTitle className='pc' big={big}>{titlePC}</BeautifulTitle>
+                <BeautifulTitle className='mobile'>{titleMobile}</BeautifulTitle>
+                <div className={`${styleNames.text} pc`}>{textPC}</div>
+                <div className={`${styleNames.text} mobile`}>{textMobile}</div>
                 <Swiper
                     cssMode={true}
                     id='SliderHowToHelp'
