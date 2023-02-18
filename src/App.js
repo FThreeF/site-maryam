@@ -16,8 +16,16 @@ import Footer from './components/footer/Footer';
 
 
 const App = () => {
+
+
+
+
+
+
+
   return (
     <BrowserRouter>
+
       <div className="app">
         <Routes>
           
@@ -34,7 +42,7 @@ const App = () => {
         </Routes>
         <Footer />
       </div>
-    </BrowserRouter>
+    </BrowserRouter >
   )
 }
 

@@ -18,6 +18,18 @@ const News = () => {
             text: 'Законопроект, поддерживающий некоммерческие организации, был принят Госдумой в третьем чтении. Согласно документу, до 1% от выручки на благотворительность не будет облагаться налогом. И такой шаг был крайне необходим в сегодняшних реалиях, считают представители НКО',
         },
     ]
+
+    const setValue = () => {
+        const buttonText = document.querySelector(`.${styleNames.buttonText}`);
+
+        if (buttonText.textContent = 'Читать все новости') {
+            buttonText.textContent = 'Закрыть';
+        }
+        else {
+            buttonText.textContent = 'Читать все новости';
+        }
+    }
+
     return (
         <div className={`${styleNames.block} news zoom`}>
             <div className={`${styleNames.container} container`}>
@@ -31,7 +43,7 @@ const News = () => {
                     <BlockNews title={info[0].title} date={info[0].date} text={info[0].text} />
                 </div>
                 <button className={styleNames.button}>
-                    <div className={styleNames.buttonText}>
+                    <div onClick={() => setValue()} className={styleNames.buttonText}>
                         Читать все новости
                     </div>
                 </button>
