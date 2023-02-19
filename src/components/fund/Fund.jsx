@@ -1,7 +1,7 @@
 import React from 'react';
 import BeautifulTitle from '../beautifulTitle/BeautifulTitle';
 import styleNames from './Fund.module.css';
-import Yuri from './Yuri.png';
+import Yuri from './man.png';
 
 const Fund = () => {
     return (
