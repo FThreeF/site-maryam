@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site-maryam/static/css/main.359dc6d0.css",
-    "main.js": "/site-maryam/static/js/main.4b73ee50.js",
+    "main.css": "/site-maryam/static/css/main.2e2f4a65.css",
+    "main.js": "/site-maryam/static/js/main.d88b0030.js",
     "static/media/quoteBackground.png": "/site-maryam/static/media/quoteBackground.66f2095b219f2a46bb43.png",
     "static/media/yourHelpBackground.png": "/site-maryam/static/media/yourHelpBackground.d7b0eb7c2f34dc23f1e1.png",
     "static/media/children.png": "/site-maryam/static/media/children.924ef38835c871e21433.png",
@@ -32,15 +32,15 @@
     "static/media/explanationsIcon2.svg": "/site-maryam/static/media/explanationsIcon2.00938ba60f5ab03219ae3549eafc9dc9.svg",
     "static/media/documentIcon.svg": "/site-maryam/static/media/documentIcon.3723318396bca5fcbecf1293c772f245.svg",
     "index.html": "/site-maryam/index.html",
-    "static/media/Arrow.svg": "/site-maryam/static/media/Arrow.9f5f686b26682103dbe2e055f7855bf1.svg",
-    "static/media/Prev.svg": "/site-maryam/static/media/Prev.7decfba70d66c766680e.svg",
-    "static/media/Next.svg": "/site-maryam/static/media/Next.01ed08be46009b483fc4.svg",
+    "static/media/Arrow.svg": "/site-maryam/static/media/Arrow.4e3df9d8ec8c9bd7b7b876b4cb1be2cc.svg",
+    "static/media/Prev.svg": "/site-maryam/static/media/Prev.afb3c1b9122beea2ba7f.svg",
+    "static/media/Next.svg": "/site-maryam/static/media/Next.7d67c2422377250bd51d.svg",
     "static/media/menuButton.svg": "/site-maryam/static/media/menuButton.b4a35e210a60ab896cba.svg",
-    "main.359dc6d0.css.map": "/site-maryam/static/css/main.359dc6d0.css.map",
-    "main.4b73ee50.js.map": "/site-maryam/static/js/main.4b73ee50.js.map"
+    "main.2e2f4a65.css.map": "/site-maryam/static/css/main.2e2f4a65.css.map",
+    "main.d88b0030.js.map": "/site-maryam/static/js/main.d88b0030.js.map"
   },
   "entrypoints": [
-    "static/css/main.359dc6d0.css",
-    "static/js/main.4b73ee50.js"
+    "static/css/main.2e2f4a65.css",
+    "static/js/main.d88b0030.js"
   ]
 }
