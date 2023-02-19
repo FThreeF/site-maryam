@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/site-maryam/static/css/main.3cb50885.css",
-    "main.js": "/site-maryam/static/js/main.ca17a928.js",
+    "main.css": "/site-maryam/static/css/main.6f5aa8b1.css",
+    "main.js": "/site-maryam/static/js/main.82bc0ac5.js",
     "static/media/quoteBackground.png": "/site-maryam/static/media/quoteBackground.66f2095b219f2a46bb43.png",
     "static/media/yourHelpBackground.png": "/site-maryam/static/media/yourHelpBackground.d7b0eb7c2f34dc23f1e1.png",
     "static/media/children.png": "/site-maryam/static/media/children.924ef38835c871e21433.png",
     "static/media/mainBlockBackground.png": "/site-maryam/static/media/mainBlockBackground.b6c8984b2d08dff7f6a9.png",
     "static/media/Image.png": "/site-maryam/static/media/Image.48225caff4e956293869.png",
-    "static/media/Yuri.png": "/site-maryam/static/media/Yuri.6db9f055f69e6473b645.png",
+    "static/media/man.png": "/site-maryam/static/media/man.210129c2ebcb2d4334f2.png",
     "static/media/programsImage1.png": "/site-maryam/static/media/programsImage1.ff41de48acda026bcfb5.png",
     "static/media/programsImage2.png": "/site-maryam/static/media/programsImage2.d7f526cca3c5500a85fe.png",
     "static/media/programImage.png": "/site-maryam/static/media/programImage.aaa215ad196cfaa69f3b.png",
@@ -36,11 +36,11 @@
     "static/media/Prev.svg": "/site-maryam/static/media/Prev.afb3c1b9122beea2ba7f.svg",
     "static/media/Next.svg": "/site-maryam/static/media/Next.7d67c2422377250bd51d.svg",
     "static/media/menuButton.svg": "/site-maryam/static/media/menuButton.b4a35e210a60ab896cba.svg",
-    "main.3cb50885.css.map": "/site-maryam/static/css/main.3cb50885.css.map",
-    "main.ca17a928.js.map": "/site-maryam/static/js/main.ca17a928.js.map"
+    "main.6f5aa8b1.css.map": "/site-maryam/static/css/main.6f5aa8b1.css.map",
+    "main.82bc0ac5.js.map": "/site-maryam/static/js/main.82bc0ac5.js.map"
   },
   "entrypoints": [
-    "static/css/main.3cb50885.css",
-    "static/js/main.ca17a928.js"
+    "static/css/main.6f5aa8b1.css",
+    "static/js/main.82bc0ac5.js"
   ]
 }
