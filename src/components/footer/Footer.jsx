@@ -10,10 +10,10 @@ const Footer = () => {
                 <div className={styleNames.contacts}>
                     <h3 className={styleNames.title}>Контакты</h3>
                     <div className={styleNames.group}>
-                        <div className={styleNames.text}>+7(999) 999 99-99</div>
-                        <div className={styleNames.text}>г. Москва, Хлебозаводский пр-д, 7, стр. 10</div>
-                        <div className={styleNames.text}>@tghuman13</div>
-                        <div className={styleNames.text}>mail@rambler.ru</div>
+                        <div className={styleNames.text}>+7 (495)796-85-45</div>
+                        <div className={styleNames.text}>Москва, ул. Гиляровского, дом 51</div>
+                        <div className={styleNames.text}>@kykaruka</div>
+                        <div className={styleNames.text}>infocfm@ya.ru</div>
                     </div>
                 </div>
                 <form className={styleNames.message} action="">
@@ -30,12 +30,12 @@ const Footer = () => {
                         <Map
                             className={styleNames.map}
                             defaultState={{
-                                center: [55.670524, 37.633814],
+                                center: [55.785923, 37.632655],
                                 zoom: 16,
                                 controls: []
                             }}
                             width="100%" height="100%">
-                            <Placemark geometry={[55.670524, 37.633814]} />
+                            <Placemark geometry={[55.785923, 37.632655]} />
                         </Map>
                     </YMaps>
                 </div>
