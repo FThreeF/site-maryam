@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/site-maryam/static/css/main.2e2f4a65.css",
-    "main.js": "/site-maryam/static/js/main.d88b0030.js",
+    "main.css": "/site-maryam/static/css/main.3cb50885.css",
+    "main.js": "/site-maryam/static/js/main.ca17a928.js",
     "static/media/quoteBackground.png": "/site-maryam/static/media/quoteBackground.66f2095b219f2a46bb43.png",
     "static/media/yourHelpBackground.png": "/site-maryam/static/media/yourHelpBackground.d7b0eb7c2f34dc23f1e1.png",
     "static/media/children.png": "/site-maryam/static/media/children.924ef38835c871e21433.png",
@@ -36,11 +36,11 @@
     "static/media/Prev.svg": "/site-maryam/static/media/Prev.afb3c1b9122beea2ba7f.svg",
     "static/media/Next.svg": "/site-maryam/static/media/Next.7d67c2422377250bd51d.svg",
     "static/media/menuButton.svg": "/site-maryam/static/media/menuButton.b4a35e210a60ab896cba.svg",
-    "main.2e2f4a65.css.map": "/site-maryam/static/css/main.2e2f4a65.css.map",
-    "main.d88b0030.js.map": "/site-maryam/static/js/main.d88b0030.js.map"
+    "main.3cb50885.css.map": "/site-maryam/static/css/main.3cb50885.css.map",
+    "main.ca17a928.js.map": "/site-maryam/static/js/main.ca17a928.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e2f4a65.css",
-    "static/js/main.d88b0030.js"
+    "static/css/main.3cb50885.css",
+    "static/js/main.ca17a928.js"
   ]
 }
