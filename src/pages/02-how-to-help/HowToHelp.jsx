@@ -10,6 +10,7 @@ import ImageTwo from './ImageTwo.png';
 import ImageThree from './ImageThree.png';
 import ImageFour from './ImageFour.png';
 import ImageFive from './ImageFive.png';
+import PanelDonates from '../../components/panelDonates/PanelDonates';
 
 const HowToHelp = () => {
 
@@ -48,6 +49,8 @@ const HowToHelp = () => {
 
     return (
         <div>
+            
+            
             <InformationPanel>
                 <div className='titlePage'>Как помочь</div>
             </InformationPanel>

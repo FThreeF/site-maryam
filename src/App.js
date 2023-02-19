@@ -12,6 +12,7 @@ import Start from './pages/00-start/Start';
 import AboutUs from './pages/01-about-us/AboutUs';
 import HowToHelp from './pages/02-how-to-help/HowToHelp';
 import Footer from './components/footer/Footer';
+import PanelDonates from './components/panelDonates/PanelDonates';
 
 
 
@@ -20,9 +21,12 @@ function App() {
 
 
   return (
-
+    
 
     <BrowserRouter>
+
+      <PanelDonates />
+
 
       <div className="app">
         <Routes>

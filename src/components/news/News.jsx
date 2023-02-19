@@ -47,14 +47,7 @@ const News = () => {
         <div className={`${styleNames.block} news zoom`}>
             <div className={`${styleNames.container} container`}>
                 <BeautifulTitle>Новости</BeautifulTitle>
-                <div className={`${styleNames.group} ${styleNames.phoneHide}`}>
-                    {info.map(el =>
-                        <BlockNews key={el.id} title={el.title} date={el.date} text={el.text} />
-                    )}
-                </div>
-                <div className={`${styleNames.group} ${styleNames.phoneView}`}>
-                    <BlockNews title={info[0].title} date={info[0].date} text={info[0].text} />
-                </div>
+                <iframe className={styleNames.news} src="https://www.miloserdie.ru/news/"></iframe>
 
                 <button className={styleNames.button}>
                     <div onClick={() => setValue()} className={styleNames.buttonText}>
@@ -64,7 +57,7 @@ const News = () => {
                 
 
                 <div className={styleNames.groupNews}>
-                    <iframe className={styleNames.news} src="https://www.miloserdie.ru/news/"></iframe>
+                    
                     <iframe className={styleNames.news} src="https://www.asi.org.ru/newswire/"></iframe>
 
                     <iframe className={styleNames.news} src="https://philanthropy.ru/category/news/"></iframe>

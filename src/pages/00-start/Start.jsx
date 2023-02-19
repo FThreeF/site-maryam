@@ -23,7 +23,6 @@ import PanelArchive from '../../components/panelArchive/PanelArchive';
 import image1 from './programsImage1.png';
 import image2 from './programsImage2.png';
 import ProgramSelection from '../../components/programSelection/ProgramSelection';
-import PanelDonates from '../../components/panelDonates/PanelDonates';
 
 
 
@@ -61,7 +60,7 @@ const Start = ({ yourHelpBackground, quoteBackground }) => {
             <PanelWantHelp />
             <PanelNeedHelp />
             <PanelArchive />
-            <PanelDonates />
+ 
 
             <MainBlock />
 

@@ -12,9 +12,9 @@ const PanelDonates = ({image, title, text}) => {
 
 
     return (
-        <div onClick={offPanel} id='panelDonatesActive' className={`${styleNames.block}`}>
+        <div onClick={offPanel} id='panelDonatesDeactive' className={`${styleNames.block}`}>
             <div className={`${styleNames.container} container`}>
-                <form action="" onClick={(event) => event.stopPropagation()} id='wrapperDonatesActive' className={styleNames.wrapper}>
+                <form action="" onClick={(event) => event.stopPropagation()} id='wrapperDonatesDeactive' className={styleNames.wrapper}>
                     <div className={styleNames.title}>Сделать пожертвование</div>
                     <div className={styleNames.group}>
                         <input className={styleNames.input} type="text" placeholder='Введите Имя (необязательно)' />
