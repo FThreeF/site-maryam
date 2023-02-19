@@ -15,26 +15,24 @@ import Footer from './components/footer/Footer';
 
 
 
-const App = () => {
-
-
-
-
+function App() {
 
 
 
   return (
+
+
     <BrowserRouter>
 
       <div className="app">
         <Routes>
-          
+
           <Route path='/site-maryam' element={<Header />} />
           <Route path='/aboutUs' element={<NavMenu />} />
           <Route path='/howToHelp' element={<NavMenu />} />
 
         </Routes>
-    
+
         <Routes>
           <Route path='/site-maryam' element={<Start yourHelpBackground={yourHelpBackground} quoteBackground={quoteBackground} />} />
           <Route path='/aboutUs' element={<AboutUs />} />
@@ -45,5 +43,8 @@ const App = () => {
     </BrowserRouter >
   )
 }
+
+
+
 
 export default App;

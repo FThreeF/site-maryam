@@ -10,11 +10,16 @@
     font-size: 24px;
 }
 
+
+
+
 *::-webkit-scrollbar {
     width: 0;
 }
 
-
+.feed-title {
+    color: red;
+}
 
 input::-webkit-outer-spin-button,
 input::-webkit-inner-spin-button {
@@ -187,6 +192,38 @@ body,
     top: -40%;
     transition: 300ms;
 }
+
+
+
+
+
+
+
+#panelDonatesActive {
+    pointer-events: fill;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 300ms;
+}
+
+#panelDonatesDeactiev {
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.0);
+    transition: 300ms;
+}
+
+#wrapperDonatesActive {
+    top: 50%;
+    transition: 300ms;
+}
+
+#wrapperDonatesDeactive {
+    top: -40%;
+    transition: 300ms;
+}
+
+
+
+
 
 
 

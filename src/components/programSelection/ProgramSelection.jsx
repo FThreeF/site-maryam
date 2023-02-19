@@ -14,17 +14,12 @@ import 'swiper/css/bundle';
 
 
 
-const ProgramSelection = ({info, big, titlePC, titleMobile, textPC, textMobile}) => {
-
-    
-
-
-
+const ProgramSelection = ({ info, big, titlePC, titleMobile, textPC, textMobile }) => {
 
     return (
         <div className={styleNames.block}>
             <div className={`${styleNames.container} container`}>
-                
+
                 <BeautifulTitle className='pc' big={big}>{titlePC}</BeautifulTitle>
                 <BeautifulTitle className='mobile'>{titleMobile}</BeautifulTitle>
                 <div className={`${styleNames.text} pc`}>{textPC}</div>
@@ -48,7 +43,7 @@ const ProgramSelection = ({info, big, titlePC, titleMobile, textPC, textMobile})
                 >
                     {info.map(el =>
                         <SwiperSlide className={styleNames.swiperSlider}>
-                            <BlockProgramSelection img={el.img} title={el.title} text={el.text} />
+                            <BlockProgramSelection key={Math.random() * 1000} img={el.img} title={el.title} text={el.text} />
                         </SwiperSlide>
                     )}
 
@@ -73,7 +68,7 @@ const ProgramSelection = ({info, big, titlePC, titleMobile, textPC, textMobile})
                 >
                     {info.map(el =>
                         <SwiperSlide className={styleNames.swiperSlider}>
-                            <BlockProgramSelection img={el.img} title={el.title} text={el.text} />
+                            <BlockProgramSelection key={Math.random() * 1000} img={el.img} title={el.title} text={el.text} />
                         </SwiperSlide>
                     )}
 

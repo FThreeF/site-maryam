@@ -4,6 +4,11 @@ import BlockNews from './blockNews/BlockNews';
 import styleNames from './News.module.css';
 
 const News = () => {
+
+
+
+
+
     let info = [
         {
             id: 0,
@@ -21,13 +26,21 @@ const News = () => {
 
     const setValue = () => {
         const buttonText = document.querySelector(`.${styleNames.buttonText}`);
+        const groupNews = document.querySelector(`.${styleNames.groupNews}`);
 
-        if (buttonText.textContent = 'Читать все новости') {
+        if (buttonText.textContent == 'Читать все новости') {
             buttonText.textContent = 'Закрыть';
+            groupNews.style.display = 'flex';
+
+
         }
-        else {
+
+        else if (buttonText.textContent == 'Закрыть') {
             buttonText.textContent = 'Читать все новости';
+            groupNews.style.display = 'none';
+
         }
+
     }
 
     return (
@@ -42,11 +55,26 @@ const News = () => {
                 <div className={`${styleNames.group} ${styleNames.phoneView}`}>
                     <BlockNews title={info[0].title} date={info[0].date} text={info[0].text} />
                 </div>
+
                 <button className={styleNames.button}>
                     <div onClick={() => setValue()} className={styleNames.buttonText}>
                         Читать все новости
                     </div>
                 </button>
+                
+
+                <div className={styleNames.groupNews}>
+                    <iframe className={styleNames.news} src="https://www.miloserdie.ru/news/"></iframe>
+                    <iframe className={styleNames.news} src="https://www.asi.org.ru/newswire/"></iframe>
+
+                    <iframe className={styleNames.news} src="https://philanthropy.ru/category/news/"></iframe>
+                    <iframe className={styleNames.news} src="https://dobro.live/publikacii/sobytiya"></iframe>
+                </div>
+
+                
+
+                {/* 
+                <iframe className={styleNames.news} src="//rss.bloople.net/?url=https%3A%2F%2Ffeeds.feedburner.com%2Fphilanthropy%2Fq3xa7tlzu85&showtitle=false&showempty=true&type=html"></iframe> */}
             </div>
         </div>
     )
